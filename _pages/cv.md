@@ -11,54 +11,43 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Associate of Science in Computer Science
+* Bachelor of Science in Computers
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Data Analyst at GR Energt, 05/2024 to Current
+  * Utilized data visualization tools to effectively communicate business insights.
+  * Spearheaded a data visualization project in Power BI, resulting in a significant increase in workplace training standards, maintaining am 85% completion rate across all trainings and a 95% completion rate across hazardous material trainings. Produced monthly reports using advanced Excel spreadsheet functions.
+  * Developed and implemented automated data flows using Power Automate, seamlessly connecting Power BI reports to Azure Active Directory and Verisource .
+  * Transformed static datasets into dynamic, live reports, enhancing real-time data access and decision-making capabilities.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Instructor/Teacher at iCode, 03/2024 to 08/2024
+  * Taught coding (block code, JavaScript, Python) and robotics to elementary school students, creating a dynamic and interactive learning environment.
+  * Took on leadership roles, developing custom projects for advanced students, ensuring continued engagement for fast learners.
+  * Tracked student progress, frequently checking in with struggling students and identifying root causes of problems.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+*	Excel functions
+*	Statistical analysis
+*	Python
+*	HTML & CSS
+*	Power BI
+*	Azure Active Directory
+*	Java & Javascript
+*	Data cleaning
+*	C++
+*	SQL
+*	Excel
+*	Power Automate
 
-Publications
+Projects
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Dungeons and Dragons Homebrew Creator and Dungeon Master, 08/2021 - Present
+  * Created and led 7 custom campaigns for 16 players, designing unique game rules and scenarios to ensure player engagement and retention.
+  * Managed player schedules, ensuring smooth coordination across multiple campaigns, demonstrating excellent organizational and leadership skills.
+ 
+* Tabletop Game - XCOM Project, 03/2022 to 11/2022
+  * Designed and developed a tabletop RPG system inspired by the XCOM video game series, incorporating player feedback to improve mechanics and balance.
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams

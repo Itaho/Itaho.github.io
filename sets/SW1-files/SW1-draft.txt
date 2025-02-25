@@ -1,0 +1,238 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "CT-9904, Crosshair",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Human Clone-Trooper ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/6_CT-9904, Crosshair.png"
+			}
+		},
+		{
+			"name": "CT-9903, Wrecker",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{R}{G}",
+			"type": "Legendary Creature — Human Clone-Trooper ",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/12_CT-9903, Wrecker.png"
+			}
+		},
+		{
+			"name": "CT-9902, Tech",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Human Clone-Trooper ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/4_CT-9902, Tech.png"
+			}
+		},
+		{
+			"name": "CT-9901, Hunter",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}{U}",
+			"type": "Legendary Creature — Human Clone-Trooper ",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/11_CT-9901, Hunter.png"
+			}
+		},
+		{
+			"name": "Omega, of The Bad Batch",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{W/U}",
+			"type": "Legendary Creature — Human ",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/16_Omega, of The Bad Batch.png"
+			}
+		},
+		{
+			"name": "CT-1409, Echo",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Legendary Creature — Human Clone-Trooper ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/10_CT-1409, Echo.png"
+			}
+		},
+		{
+			"name": "General Pong Krell",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{B}",
+			"type": "Legendary Creature — Warrior ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/13_General Pong Krell.png"
+			}
+		},
+		{
+			"name": "Obi-Wan Kenobi",
+			"rarity": "mythic",
+			"mana_cost": "{5}{W}{U}",
+			"type": "Legendary Creature — Human Warrior ",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/15_Obi-Wan Kenobi.png"
+			}
+		},
+		{
+			"name": "The Zillo Beast",
+			"rarity": "uncommon",
+			"mana_cost": "{8}{G}{G}{G}",
+			"type": "Creature — Beast ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/7_The Zillo Beast.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp ",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/19_Swamp.png"
+			}
+		},
+		{
+			"name": "ARC Troopers",
+			"rarity": "common",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Creature — Human Clone-Trooper ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/9_ARC Troopers.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains ",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/17_Plains.png"
+			}
+		},
+		{
+			"name": "Brothers in Arms",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}",
+			"type": "Instant",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/1_Brothers in Arms.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain ",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/20_Mountain.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/18_Island.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest ",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/21_Forest.png"
+			}
+		},
+		{
+			"name": "Anakin Skywalker",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Human Warrior ",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/8_Anakin Skywalker.png"
+			}
+		},
+		{
+			"name": "Clone Protocol 66",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/5_Clone Protocol 66.png"
+			}
+		},
+		{
+			"name": "Lord Vader",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Legendary Artifact Creature — Human Warrior ",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/14_Lord Vader.png"
+			}
+		},
+		{
+			"name": "Brothers in Arms",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}",
+			"type": "Instant",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/2_Brothers in Arms.png"
+			}
+		},
+		{
+			"name": "Brothers in Arms",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}",
+			"type": "Instant",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/3_Brothers in Arms.png"
+			}
+		}
+	]
+[RareSlot(1)]
+2 General Pong Krell
+1 Obi-Wan Kenobi
+1 Anakin Skywalker
+[UncommonSlot(3)]
+9 CT-9904, Crosshair
+9 CT-9903, Wrecker
+9 CT-9902, Tech
+9 CT-9901, Hunter
+9 Omega, of The Bad Batch
+9 CT-1409, Echo
+9 The Zillo Beast
+9 Brothers in Arms
+9 Brothers in Arms
+9 Brothers in Arms
+[CommonSlot(11)]
+30 ARC Troopers
+30 Clone Protocol 66
+30 Lord Vader
+[LandSlot(1)]
+10 Swamp
+10 Plains
+10 Mountain
+10 Island
+10 Forest

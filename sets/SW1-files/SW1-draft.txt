@@ -5,9 +5,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Legendary Creature — Human Clone-Trooper ",
-			"collector_number": "6",
+			"collector_number": "10",
 			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/6_CT-9904, Crosshair.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/10_CT-9904, Crosshair.png"
 			}
 		},
 		{
@@ -15,9 +15,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{6}{R}{G}",
 			"type": "Legendary Creature — Human Clone-Trooper ",
-			"collector_number": "12",
+			"collector_number": "16",
 			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/12_CT-9903, Wrecker.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/16_CT-9903, Wrecker.png"
 			}
 		},
 		{
@@ -25,9 +25,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Legendary Creature — Human Clone-Trooper ",
-			"collector_number": "4",
+			"collector_number": "8",
 			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/4_CT-9902, Tech.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/8_CT-9902, Tech.png"
 			}
 		},
 		{
@@ -35,9 +35,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}{G}{U}",
 			"type": "Legendary Creature — Human Clone-Trooper ",
-			"collector_number": "11",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/11_CT-9901, Hunter.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/15_CT-9901, Hunter.png"
 			}
 		},
 		{
@@ -45,9 +45,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}{W/U}",
 			"type": "Legendary Creature — Human ",
-			"collector_number": "16",
+			"collector_number": "20",
 			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/16_Omega, of The Bad Batch.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/20_Omega, of The Bad Batch.png"
 			}
 		},
 		{
@@ -55,9 +55,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{B}",
 			"type": "Legendary Creature — Human Clone-Trooper ",
-			"collector_number": "10",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/10_CT-1409, Echo.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/14_CT-1409, Echo.png"
 			}
 		},
 		{
@@ -65,9 +65,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{W}{B}",
 			"type": "Legendary Creature — Warrior ",
-			"collector_number": "13",
+			"collector_number": "17",
 			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/13_General Pong Krell.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/17_General Pong Krell.png"
 			}
 		},
 		{
@@ -75,9 +75,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{5}{W}{U}",
 			"type": "Legendary Creature — Human Warrior ",
-			"collector_number": "15",
+			"collector_number": "19",
 			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/15_Obi-Wan Kenobi.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/19_Obi-Wan Kenobi.png"
 			}
 		},
 		{
@@ -85,9 +85,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{8}{G}{G}{G}",
 			"type": "Creature — Beast ",
-			"collector_number": "7",
+			"collector_number": "11",
 			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/7_The Zillo Beast.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/11_The Zillo Beast.png"
 			}
 		},
 		{
@@ -95,9 +95,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Swamp ",
-			"collector_number": "19",
+			"collector_number": "23",
 			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/19_Swamp.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/23_Swamp.png"
 			}
 		},
 		{
@@ -105,9 +105,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Creature — Human Clone-Trooper ",
-			"collector_number": "9",
+			"collector_number": "13",
 			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/9_ARC Troopers.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/13_ARC Troopers.png"
 			}
 		},
 		{
@@ -115,89 +115,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Plains ",
-			"collector_number": "17",
-			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/17_Plains.png"
-			}
-		},
-		{
-			"name": "Brothers in Arms",
-			"rarity": "uncommon",
-			"mana_cost": "{4}{W}",
-			"type": "Instant",
-			"collector_number": "1",
-			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/1_Brothers in Arms.png"
-			}
-		},
-		{
-			"name": "Mountain",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Basic Land — Mountain ",
-			"collector_number": "20",
-			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/20_Mountain.png"
-			}
-		},
-		{
-			"name": "Island",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Basic Land — Island ",
-			"collector_number": "18",
-			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/18_Island.png"
-			}
-		},
-		{
-			"name": "Forest",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Basic Land — Forest ",
 			"collector_number": "21",
 			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/21_Forest.png"
-			}
-		},
-		{
-			"name": "Anakin Skywalker",
-			"rarity": "mythic",
-			"mana_cost": "{2}{R}{W}",
-			"type": "Legendary Creature — Human Warrior ",
-			"collector_number": "8",
-			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/8_Anakin Skywalker.png"
-			}
-		},
-		{
-			"name": "Clone Protocol 66",
-			"rarity": "common",
-			"mana_cost": "{B}",
-			"type": "Sorcery",
-			"collector_number": "5",
-			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/5_Clone Protocol 66.png"
-			}
-		},
-		{
-			"name": "Lord Vader",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Legendary Artifact Creature — Human Warrior ",
-			"collector_number": "14",
-			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/14_Lord Vader.png"
-			}
-		},
-		{
-			"name": "Brothers in Arms",
-			"rarity": "uncommon",
-			"mana_cost": "{4}{W}",
-			"type": "Instant",
-			"collector_number": "2",
-			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/2_Brothers in Arms.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/21_Plains.png"
 			}
 		},
 		{
@@ -207,7 +127,127 @@
 			"type": "Instant",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://ItahoCardBase.github.io/sets/SW1-files/img/3_Brothers in Arms.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/3_Brothers in Arms.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain ",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/SW1-files/img/24_Mountain.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island ",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/SW1-files/img/22_Island.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest ",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/SW1-files/img/25_Forest.png"
+			}
+		},
+		{
+			"name": "Anakin Skywalker",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Human Warrior ",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/SW1-files/img/12_Anakin Skywalker.png"
+			}
+		},
+		{
+			"name": "Clone Protocol 66",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/SW1-files/img/9_Clone Protocol 66.png"
+			}
+		},
+		{
+			"name": "Lord Vader",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Legendary Artifact Creature — Human Warrior ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/SW1-files/img/18_Lord Vader.png"
+			}
+		},
+		{
+			"name": "Brothers in Arms",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}",
+			"type": "Instant",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/SW1-files/img/4_Brothers in Arms.png"
+			}
+		},
+		{
+			"name": "Brothers in Arms",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}",
+			"type": "Instant",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/SW1-files/img/5_Brothers in Arms.png"
+			}
+		},
+		{
+			"name": "Clone Trooper",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Creature — Human Clone-Trooper ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/SW1-files/img/6_Clone Trooper.png"
+			}
+		},
+		{
+			"name": "B1-Battledroid",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact Creature — Droid ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/SW1-files/img/1_B1-Battledroid.png"
+			}
+		},
+		{
+			"name": "The Clone Wars",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Disaster",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/SW1-files/img/7_The Clone Wars.png"
+			}
+		},
+		{
+			"name": "Battle Brothers",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Clone-Trooper ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/SW1-files/img/2_Battle Brothers.png"
 			}
 		}
 	]
@@ -226,10 +266,14 @@
 9 Brothers in Arms
 9 Brothers in Arms
 9 Brothers in Arms
+9 The Clone Wars
 [CommonSlot(11)]
 30 ARC Troopers
 30 Clone Protocol 66
 30 Lord Vader
+30 Clone Trooper
+30 B1-Battledroid
+30 Battle Brothers
 [LandSlot(1)]
 10 Swamp
 10 Plains

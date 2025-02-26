@@ -15,6 +15,8 @@
 		overscroll-behavior: none;
 		font-family: 'Helvetica', 'Arial', sans-serif;
 		display: grid;
+		margin: 0;
+            	overflow: hidden;
 	}
 	.selects {
 		position: absolute;
@@ -193,36 +195,31 @@
 			font-size: 18px;
 		}
 	}
+	#card-wall {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            pointer-events: none;
+            z-index: -1;
+        }
+        .card {
+            position: absolute;
+            width: 100px;
+            height: 140px;
+            object-fit: cover;
+            animation: fall 2s ease-in forwards;
+        }
 
-		#card-container {
-    position: fixed;
-    bottom: 20px;
-    left: 0;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    display: flex;
-    align-items: flex-end;
-    pointer-events: none;
-}
-
-.sliding-card {
-    position: absolute;
-    bottom: 0;
-    height: 100px; /* Adjust size as needed */
-    transition: transform 0.5s ease-in-out;
-    animation: slide-left 5s linear forwards;
-}
-
-@keyframes slide-left {
-    from {
-        right: -150px; /* Start off-screen */
-    }
-    to {
-        right: 100vw; /* Move across the screen */
-    }
-}
-
+        @keyframes fall {
+            from {
+                transform: translateY(-100vh);
+            }
+            to {
+                transform: translateY(var(--target-y));
+            }
+        }
 	</style>
 	<body>
 		<div class="selects" id="selects">
@@ -438,6 +435,7 @@
 				window.location.href = url;
 			}
 		</script>
-		<script src="scripts/sliding-cards.js"></script>
+		<div id="card-wall"></div>
+    		<script src="wall.js"></script>
 	</body>
 	</html>

@@ -193,6 +193,36 @@
 			font-size: 18px;
 		}
 	}
+
+		#card-container {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    pointer-events: none;
+}
+
+.sliding-card {
+    position: absolute;
+    bottom: 0;
+    height: 100px; /* Adjust size as needed */
+    transition: transform 0.5s ease-in-out;
+    animation: slide-left 5s linear forwards;
+}
+
+@keyframes slide-left {
+    from {
+        right: -150px; /* Start off-screen */
+    }
+    to {
+        right: 100vw; /* Move across the screen */
+    }
+}
+
 	</style>
 	<body>
 		<div class="selects" id="selects">
@@ -408,6 +438,6 @@
 				window.location.href = url;
 			}
 		</script>
-		<script src="scripts/falling-cards.js"></script>
+		<script src="scripts/sliding-cards.js"></script>
 	</body>
 	</html>

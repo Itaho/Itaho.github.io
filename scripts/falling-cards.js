@@ -1,59 +1,66 @@
-document.addEventListener("DOMContentLoaded", async function () {
-    const cardContainer = document.createElement("div");
-    cardContainer.id = "card-container";
-    document.body.appendChild(cardContainer);
+document.addEventListener('DOMContentLoaded', () => {
+    const wall = document.getElementById('card-wall');
+    const CARD_WIDTH = 100;
+    const CARD_HEIGHT = 140;
+    const MARGIN = 10;
+    let images = [];
 
-    // Base path where sets are stored
-    const basePath = "sets";
+    // Fetch card images
+    fetch('get_cards.php')
+        .then(response => response.json())
+        .then(data => {
+            images = data;
+            return preloadImages(images);
+        })
+        .then(() => initializeWall());
 
-    // List of image paths (to be populated dynamically)
-    let imagePaths = [];
+    function preloadImages(urls) {
+        return Promise.all(urls.map(url => 
+            new Promise((resolve) => {
+                const img = new Image();
+                img.src = url;
+                img.onload = resolve;
+            })
+        ));
+    }
 
-    // Fetch sets directory
-    async function fetchCardImages() {
-        // Manually define known sets for now (replace this with a dynamic server-side solution if needed)
-        const sets = ["SW1-files"];
+    function initializeWall() {
+        const viewportWidth = window.innerWidth;
+        const viewportHeight = window.innerHeight;
         
-        sets.forEach(set => {
-            const imgDir = `${basePath}/${set}/img/`;
-            const images = [
-                "10_R2-D2, Full of Solutions.png",
-                "11_Clone Protocol 66.png",
-                "12_CT-9904, Crosshair.png",
-                "13_Advanced ReConnaissance-170.png",
-                "14_B2-Battledroid Squad.png",
-                "15_BB-8.png",
-                "16_Batcher, Lurca Hound.png",
-                "17_Riyo Chuchi, Republic Senator.png",
-                "18_The Zillo Beast.png",
-                "19_Ahsoka Tano, Jedi Ronin.png"
-            ];
-            images.forEach(img => imagePaths.push(`${imgDir}${img}`));
-        });
+        const numColumns = Math.floor(viewportWidth / (CARD_WIDTH + MARGIN));
+        const columns = Array(numColumns).fill(viewportHeight - CARD_HEIGHT);
+
+        function createCard() {
+            const availableColumns = columns
+                .map((y, index) => ({ y, index }))
+                .filter(col => col.y >= 0);
+
+            if (availableColumns.length === 0) return;
+
+            const column = availableColumns[Math.floor(Math.random() * availableColumns.length)];
+            const xPos = column.index * (CARD_WIDTH + MARGIN);
+            const targetY = column.y;
+
+            const card = document.createElement('img');
+            card.className = 'card';
+            card.style.setProperty('--target-y', `${targetY}px`);
+            card.style.left = `${xPos}px`;
+            card.src = images[Math.floor(Math.random() * images.length)];
+
+            card.addEventListener('animationend', () => {
+                columns[column.index] = targetY - CARD_HEIGHT - MARGIN;
+            });
+
+            wall.appendChild(card);
+            setTimeout(createCard, 100);
+        }
+
+        createCard();
     }
 
-    // Spawn a falling card
-    function spawnCard() {
-        if (imagePaths.length === 0) return;
-
-        const card = document.createElement("img");
-        card.src = imagePaths[Math.floor(Math.random() * imagePaths.length)];
-        card.classList.add("card");
-
-        // Random positioning and rotation
-        card.style.left = `${Math.random() * window.innerWidth}px`;
-        card.style.animationDuration = `${3 + Math.random() * 5}s`;
-        card.style.transform = `rotate(${Math.random() * 360}deg)`;
-
-        cardContainer.appendChild(card);
-
-        // Remove card after animation to prevent overflow
-        setTimeout(() => {
-            card.remove();
-        }, 8000);
-    }
-
-    // Initialize
-    await fetchCardImages();
-    setInterval(spawnCard, 500);
+    window.addEventListener('resize', () => {
+        wall.innerHTML = '';
+        initializeWall();
+    });
 });

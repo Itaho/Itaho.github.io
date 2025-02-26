@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let images = [];
 
     // Fetch card images
-    fetch('get_cards.php')
+    fetch('http://itaho.infy.uk/get_cards.php')
         .then(response => response.json())
         .then(data => {
             images = data;

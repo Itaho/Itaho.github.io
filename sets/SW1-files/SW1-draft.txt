@@ -5,9 +5,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Legendary Creature — Human Clone-Trooper ",
-			"collector_number": "10",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/10_CT-9904, Crosshair.png"
+				"en": "https:///sets/SW1-files/img/12_CT-9904, Crosshair.png"
 			}
 		},
 		{
@@ -15,9 +15,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{6}{R}{G}",
 			"type": "Legendary Creature — Human Clone-Trooper ",
-			"collector_number": "16",
+			"collector_number": "26",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/16_CT-9903, Wrecker.png"
+				"en": "https:///sets/SW1-files/img/26_CT-9903, Wrecker.png"
 			}
 		},
 		{
@@ -25,9 +25,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Legendary Creature — Human Clone-Trooper ",
-			"collector_number": "8",
+			"collector_number": "9",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/8_CT-9902, Tech.png"
+				"en": "https:///sets/SW1-files/img/9_CT-9902, Tech.png"
 			}
 		},
 		{
@@ -35,29 +35,29 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}{G}{U}",
 			"type": "Legendary Creature — Human Clone-Trooper ",
-			"collector_number": "15",
+			"collector_number": "25",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/15_CT-9901, Hunter.png"
+				"en": "https:///sets/SW1-files/img/25_CT-9901, Hunter.png"
 			}
 		},
 		{
 			"name": "Omega, of The Bad Batch",
 			"rarity": "uncommon",
-			"mana_cost": "{G}{W/U}",
+			"mana_cost": "{W/U}",
 			"type": "Legendary Creature — Human ",
-			"collector_number": "20",
+			"collector_number": "31",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/20_Omega, of The Bad Batch.png"
+				"en": "https:///sets/SW1-files/img/31_Omega, of The Bad Batch.png"
 			}
 		},
 		{
 			"name": "CT-1409, Echo",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{U}{B}",
+			"mana_cost": "{1}{W}{U}",
 			"type": "Legendary Creature — Human Clone-Trooper ",
-			"collector_number": "14",
+			"collector_number": "24",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/14_CT-1409, Echo.png"
+				"en": "https:///sets/SW1-files/img/24_CT-1409, Echo.png"
 			}
 		},
 		{
@@ -65,9 +65,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{W}{B}",
 			"type": "Legendary Creature — Warrior ",
-			"collector_number": "17",
+			"collector_number": "27",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/17_General Pong Krell.png"
+				"en": "https:///sets/SW1-files/img/27_General Pong Krell.png"
 			}
 		},
 		{
@@ -75,9 +75,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{5}{W}{U}",
 			"type": "Legendary Creature — Human Warrior ",
-			"collector_number": "19",
+			"collector_number": "29",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/19_Obi-Wan Kenobi.png"
+				"en": "https:///sets/SW1-files/img/29_Obi-Wan Kenobi.png"
 			}
 		},
 		{
@@ -85,9 +85,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{8}{G}{G}{G}",
 			"type": "Creature — Beast ",
-			"collector_number": "11",
+			"collector_number": "18",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/11_The Zillo Beast.png"
+				"en": "https:///sets/SW1-files/img/18_The Zillo Beast.png"
 			}
 		},
 		{
@@ -95,9 +95,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Swamp ",
-			"collector_number": "23",
+			"collector_number": "48",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/23_Swamp.png"
+				"en": "https:///sets/SW1-files/img/48_Swamp.png"
 			}
 		},
 		{
@@ -105,9 +105,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Creature — Human Clone-Trooper ",
-			"collector_number": "13",
+			"collector_number": "22",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/13_ARC Troopers.png"
+				"en": "https:///sets/SW1-files/img/22_ARC Troopers.png"
 			}
 		},
 		{
@@ -115,9 +115,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Plains ",
-			"collector_number": "21",
+			"collector_number": "46",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/21_Plains.png"
+				"en": "https:///sets/SW1-files/img/46_Plains.png"
 			}
 		},
 		{
@@ -125,9 +125,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{W}",
 			"type": "Instant",
-			"collector_number": "3",
+			"collector_number": "2",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/3_Brothers in Arms.png"
+				"en": "https:///sets/SW1-files/img/2_Brothers in Arms.png"
 			}
 		},
 		{
@@ -135,9 +135,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Mountain ",
-			"collector_number": "24",
+			"collector_number": "49",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/24_Mountain.png"
+				"en": "https:///sets/SW1-files/img/49_Mountain.png"
 			}
 		},
 		{
@@ -145,9 +145,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Island ",
-			"collector_number": "22",
+			"collector_number": "47",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/22_Island.png"
+				"en": "https:///sets/SW1-files/img/47_Island.png"
 			}
 		},
 		{
@@ -155,19 +155,19 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest ",
-			"collector_number": "25",
+			"collector_number": "50",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/25_Forest.png"
+				"en": "https:///sets/SW1-files/img/50_Forest.png"
 			}
 		},
 		{
-			"name": "Anakin Skywalker",
+			"name": "Anakin Skywalker, Fallen",
 			"rarity": "mythic",
 			"mana_cost": "{2}{R}{W}",
 			"type": "Legendary Creature — Human Warrior ",
-			"collector_number": "12",
+			"collector_number": "20",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/12_Anakin Skywalker.png"
+				"en": "https:///sets/SW1-files/img/20_Anakin Skywalker, Fallen.png"
 			}
 		},
 		{
@@ -175,19 +175,19 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "9",
+			"collector_number": "11",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/9_Clone Protocol 66.png"
+				"en": "https:///sets/SW1-files/img/11_Clone Protocol 66.png"
 			}
 		},
 		{
 			"name": "Lord Vader",
-			"rarity": "common",
+			"rarity": "mythic",
 			"mana_cost": "",
 			"type": "Legendary Artifact Creature — Human Warrior ",
-			"collector_number": "18",
+			"collector_number": "28",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/18_Lord Vader.png"
+				"en": "https:///sets/SW1-files/img/28_Lord Vader.png"
 			}
 		},
 		{
@@ -197,7 +197,7 @@
 			"type": "Instant",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/4_Brothers in Arms.png"
+				"en": "https:///sets/SW1-files/img/4_Brothers in Arms.png"
 			}
 		},
 		{
@@ -205,29 +205,29 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{W}",
 			"type": "Instant",
-			"collector_number": "5",
+			"collector_number": "3",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/5_Brothers in Arms.png"
+				"en": "https:///sets/SW1-files/img/3_Brothers in Arms.png"
 			}
 		},
 		{
 			"name": "Clone Trooper",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Creature — Human Clone-Trooper ",
-			"collector_number": "6",
+			"type": "Token Creature — Clone-Trooper ",
+			"collector_number": "5",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/6_Clone Trooper.png"
+				"en": "https:///sets/SW1-files/img/5_Clone Trooper.png"
 			}
 		},
 		{
 			"name": "B1-Battledroid",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Artifact Creature — Droid ",
-			"collector_number": "1",
+			"type": "Token Artifact Creature — Droid ",
+			"collector_number": "33",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/1_B1-Battledroid.png"
+				"en": "https:///sets/SW1-files/img/33_B1-Battledroid.png"
 			}
 		},
 		{
@@ -235,9 +235,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Disaster",
-			"collector_number": "7",
+			"collector_number": "6",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/7_The Clone Wars.png"
+				"en": "https:///sets/SW1-files/img/6_The Clone Wars.png"
 			}
 		},
 		{
@@ -245,38 +245,259 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Human Clone-Trooper ",
-			"collector_number": "2",
+			"collector_number": "1",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/2_Battle Brothers.png"
+				"en": "https:///sets/SW1-files/img/1_Battle Brothers.png"
+			}
+		},
+		{
+			"name": "Christophsis",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Island Swamp ",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/36_Christophsis.png"
+			}
+		},
+		{
+			"name": "Scarif",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Plains Island ",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/44_Scarif.png"
+			}
+		},
+		{
+			"name": "Mustafar",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Swamp Mountain ",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/41_Mustafar.png"
+			}
+		},
+		{
+			"name": "Kashyyyk",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Forest Plains ",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/40_Kashyyyk.png"
+			}
+		},
+		{
+			"name": "Wastes",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/45_Wastes.png"
+			}
+		},
+		{
+			"name": "Nal Hutta",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Swamp Forest ",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/42_Nal Hutta.png"
+			}
+		},
+		{
+			"name": "Crait",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Mountain Plains ",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/38_Crait.png"
+			}
+		},
+		{
+			"name": "Dagobah",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Forest Island ",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/39_Dagobah.png"
+			}
+		},
+		{
+			"name": "Bureau of Standards",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Plains Swamp ",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/35_Bureau of Standards.png"
+			}
+		},
+		{
+			"name": "Onderon",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Mountain Forest ",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/43_Onderon.png"
+			}
+		},
+		{
+			"name": "Coruscant",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Island Mountain ",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/37_Coruscant.png"
+			}
+		},
+		{
+			"name": "R2-D2, Full of Solutions",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Artifact Creature — Robot ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/10_R2-D2, Full of Solutions.png"
+			}
+		},
+		{
+			"name": "Venator-class Star Destroyer",
+			"rarity": "rare",
+			"mana_cost": "{5}{W}{W}{U}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/30_Venator-class Star Destroyer.png"
+			}
+		},
+		{
+			"name": "BB-8",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Artifact Creature — Robot ",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/15_BB-8.png"
+			}
+		},
+		{
+			"name": "Omega, of The Bad Batch",
+			"rarity": "uncommon",
+			"mana_cost": "{W/U}",
+			"type": "Legendary Creature — Human ",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/32_Omega, of The Bad Batch.png"
+			}
+		},
+		{
+			"name": "B1-Battledroid Squad",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact Creature — Droid ",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/34_B1-Battledroid Squad.png"
+			}
+		},
+		{
+			"name": "Clone-Trooper Squad",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Clone-Trooper ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/7_Clone-Trooper Squad.png"
+			}
+		},
+		{
+			"name": "B2-Battledroid Squad",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Robot ",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/14_B2-Battledroid Squad.png"
+			}
+		},
+		{
+			"name": "Advanced ReConnaissance-170",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/13_Advanced ReConnaissance-170.png"
+			}
+		},
+		{
+			"name": "BX-Commando Droid",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Artifact Creature — Droid ",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/23_BX-Commando Droid.png"
+			}
+		},
+		{
+			"name": "Ahsoka Tano, Jedi Ronin",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Legendary Creature — Warrior ",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/19_Ahsoka Tano, Jedi Ronin.png"
+			}
+		},
+		{
+			"name": "Rise of the First Galactic Empire",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Instant",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/8_Rise of the First Galactic Empire.png"
+			}
+		},
+		{
+			"name": "Riyo Chuchi, Republic Senator",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Creature — Noble Advisor ",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/17_Riyo Chuchi, Republic Senator.png"
+			}
+		},
+		{
+			"name": "Batcher, Lurca Hound",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Legendary Creature — Beast ",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/16_Batcher, Lurca Hound.png"
+			}
+		},
+		{
+			"name": "Anakin Skywalker, Starpilot",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Legendary Creature — Human Pilot ",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https:///sets/SW1-files/img/21_Anakin Skywalker, Starpilot.png"
 			}
 		}
 	]
-[RareSlot(1)]
-2 General Pong Krell
-1 Obi-Wan Kenobi
-1 Anakin Skywalker
-[UncommonSlot(3)]
-9 CT-9904, Crosshair
-9 CT-9903, Wrecker
-9 CT-9902, Tech
-9 CT-9901, Hunter
-9 Omega, of The Bad Batch
-9 CT-1409, Echo
-9 The Zillo Beast
-9 Brothers in Arms
-9 Brothers in Arms
-9 Brothers in Arms
-9 The Clone Wars
-[CommonSlot(11)]
-30 ARC Troopers
-30 Clone Protocol 66
-30 Lord Vader
-30 Clone Trooper
-30 B1-Battledroid
-30 Battle Brothers
-[LandSlot(1)]
-10 Swamp
-10 Plains
-10 Mountain
-10 Island
-10 Forest

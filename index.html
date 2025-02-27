@@ -15,6 +15,8 @@
 		overscroll-behavior: none;
 		font-family: 'Helvetica', 'Arial', sans-serif;
 		display: grid;
+		margin: 0;
+            	overflow: hidden;
 	}
 	.selects {
 		position: absolute;
@@ -193,6 +195,31 @@
 			font-size: 18px;
 		}
 	}
+	#card-wall {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            pointer-events: none;
+            z-index: -1;
+        }
+        .card {
+            position: absolute;
+            width: 100px;
+            height: 140px;
+            object-fit: cover;
+            animation: fall 2s ease-in forwards;
+        }
+
+        @keyframes fall {
+            from {
+                transform: translateY(-100vh);
+            }
+            to {
+                transform: translateY(var(--target-y));
+            }
+        }
 	</style>
 	<body>
 		<div class="selects" id="selects">
@@ -408,5 +435,7 @@
 				window.location.href = url;
 			}
 		</script>
+		<div id="card-wall"></div>
+    		<script src="falling-cards.js"></script>
 	</body>
 	</html>

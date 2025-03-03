@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/TCW-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>TCW visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/TCW-files/logo.png" />
+	<img class="preload-hidden" src="/sets/TCW-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="TCW"><img src="/sets/TCW-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/TCW-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\TCW-files\img\1_Ahsoka Tano, Jedi Ronin.png" id="1_Ahsoka Tano, Jedi Ronin" data-flag="@X" onclick="openSidebar('1_Ahsoka Tano, Jedi Ronin',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\23_ARC-5597, Jesse.png" id="23_ARC-5597, Jesse" data-flag="@X" onclick="openSidebar('23_ARC-5597, Jesse',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\51_Durge, The Unkillable.png" id="51_Durge, The Unkillable" data-flag="@X" onclick="openSidebar('51_Durge, The Unkillable',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\81_Wolffe, 104th Commander.png" id="81_Wolffe, 104th Commander" data-flag="@X" onclick="openSidebar('81_Wolffe, 104th Commander',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\83_Bail Organa, Alderaan Delegate.png" id="83_Bail Organa, Alderaan Delegate" data-flag="@X" onclick="openSidebar('83_Bail Organa, Alderaan Delegate',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\4_Brothers in Arms.png" id="4_Brothers in Arms" data-flag="@X" onclick="openSidebar('4_Brothers in Arms',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\38_Kyber Crystal Bleeding.png" id="38_Kyber Crystal Bleeding" data-flag="@X" onclick="openSidebar('38_Kyber Crystal Bleeding',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\53_Ig-88B, Armed and Dangerous.png" id="53_Ig-88B, Armed and Dangerous" data-flag="@X" onclick="openSidebar('53_Ig-88B, Armed and Dangerous',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\64_All Terrain-Tactical Enforcer.png" id="64_All Terrain-Tactical Enforcer" data-flag="@X" onclick="openSidebar('64_All Terrain-Tactical Enforcer',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\95_Riyo Chuchi, Republic Senator.png" id="95_Riyo Chuchi, Republic Senator" data-flag="@X" onclick="openSidebar('95_Riyo Chuchi, Republic Senator',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\5_Clone Commando.png" id="5_Clone Commando" data-flag="@X" onclick="openSidebar('5_Clone Commando',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\39_R2-D2, Full of Solutions.png" id="39_R2-D2, Full of Solutions" data-flag="@X" onclick="openSidebar('39_R2-D2, Full of Solutions',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\59_Revive Warriors.png" id="59_Revive Warriors" data-flag="@X" onclick="openSidebar('59_Revive Warriors',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\66_BB-8.png" id="66_BB-8" data-flag="@X" onclick="openSidebar('66_BB-8',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\84_Batcher, Lurca Hound.png" id="84_Batcher, Lurca Hound" data-flag="@X" onclick="openSidebar('84_Batcher, Lurca Hound',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\6_Clone Tank Pilot.png" id="6_Clone Tank Pilot" data-flag="@X" onclick="openSidebar('6_Clone Tank Pilot',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\24_Arquitens-Class Light Cruiser.png" id="24_Arquitens-Class Light Cruiser" data-flag="@X" onclick="openSidebar('24_Arquitens-Class Light Cruiser',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\62_Wat Tambor, Pillager.png" id="62_Wat Tambor, Pillager" data-flag="@X" onclick="openSidebar('62_Wat Tambor, Pillager',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\67_CC-2237, Odd Ball.png" id="67_CC-2237, Odd Ball" data-flag="@X" onclick="openSidebar('67_CC-2237, Odd Ball',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\85_BLT Y-Wing Starfighter.png" id="85_BLT Y-Wing Starfighter" data-flag="@X" onclick="openSidebar('85_BLT Y-Wing Starfighter',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\7_The Clone Wars.png" id="7_The Clone Wars" data-flag="@X" onclick="openSidebar('7_The Clone Wars',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\27_CT-9902, Tech.png" id="27_CT-9902, Tech" data-flag="@X" onclick="openSidebar('27_CT-9902, Tech',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\47_Corrupt Senator.png" id="47_Corrupt Senator" data-flag="@X" onclick="openSidebar('47_Corrupt Senator',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\68_Frustrated Senator.png" id="68_Frustrated Senator" data-flag="@X" onclick="openSidebar('68_Frustrated Senator',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\87_Compassionate Senator.png" id="87_Compassionate Senator" data-flag="@X" onclick="openSidebar('87_Compassionate Senator',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\9_Clone-Trooper Squadron.png" id="9_Clone-Trooper Squadron" data-flag="@X" onclick="openSidebar('9_Clone-Trooper Squadron',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\30_Droideka.png" id="30_Droideka" data-flag="@X" onclick="openSidebar('30_Droideka',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\48_CT-9904, Crosshair.png" id="48_CT-9904, Crosshair" data-flag="@X" onclick="openSidebar('48_CT-9904, Crosshair',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\69_Geonosian Droid Factory.png" id="69_Geonosian Droid Factory" data-flag="@X" onclick="openSidebar('69_Geonosian Droid Factory',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\93_Octuptarra Magna Tri-Droid.png" id="93_Octuptarra Magna Tri-Droid" data-flag="@X" onclick="openSidebar('93_Octuptarra Magna Tri-Droid',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\10_F, Jedi Fugitive.png" id="10_F, Jedi Fugitive" data-flag="@X" onclick="openSidebar('10_F, Jedi Fugitive',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\32_Force Mind Trick.png" id="32_Force Mind Trick" data-flag="@X" onclick="openSidebar('32_Force Mind Trick',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\55_Morley, Servant of Maul.png" id="55_Morley, Servant of Maul" data-flag="@X" onclick="openSidebar('55_Morley, Servant of Maul',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\74_Lotho Minor Fire-Breather.png" id="74_Lotho Minor Fire-Breather" data-flag="@X" onclick="openSidebar('74_Lotho Minor Fire-Breather',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\97_Vaughn, 332nd Captain.png" id="97_Vaughn, 332nd Captain" data-flag="@X" onclick="openSidebar('97_Vaughn, 332nd Captain',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\15_Put on Trial.png" id="15_Put on Trial" data-flag="@X" onclick="openSidebar('15_Put on Trial',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\35_Greedy Senator.png" id="35_Greedy Senator" data-flag="@X" onclick="openSidebar('35_Greedy Senator',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\60_Sith Alchemy.png" id="60_Sith Alchemy" data-flag="@X" onclick="openSidebar('60_Sith Alchemy',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\76_Low Altitude Assault Transport.png" id="76_Low Altitude Assault Transport" data-flag="@X" onclick="openSidebar('76_Low Altitude Assault Transport',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\98_The Zillo Beast.png" id="98_The Zillo Beast" data-flag="@X" onclick="openSidebar('98_The Zillo Beast',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\16_Rise of the First Galactic Empire.png" id="16_Rise of the First Galactic Empire" data-flag="@X" onclick="openSidebar('16_Rise of the First Galactic Empire',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\37_Kickback, Storming Ryloth.png" id="37_Kickback, Storming Ryloth" data-flag="@X" onclick="openSidebar('37_Kickback, Storming Ryloth',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\61_Wandering Jawa Merchant.png" id="61_Wandering Jawa Merchant" data-flag="@X" onclick="openSidebar('61_Wandering Jawa Merchant',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\77_Orbital Bombardment.png" id="77_Orbital Bombardment" data-flag="@X" onclick="openSidebar('77_Orbital Bombardment',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\82_All Terrain Attack Pod.png" id="82_All Terrain Attack Pod" data-flag="@X" onclick="openSidebar('82_All Terrain Attack Pod',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\17_Steadfast Senator.png" id="17_Steadfast Senator" data-flag="@X" onclick="openSidebar('17_Steadfast Senator',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\40_Ringneck Recon Droid.png" id="40_Ringneck Recon Droid" data-flag="@X" onclick="openSidebar('40_Ringneck Recon Droid',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\43_B1-Battledroid Commander.png" id="43_B1-Battledroid Commander" data-flag="@X" onclick="openSidebar('43_B1-Battledroid Commander',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\63_Advanced ReConnaissance-170.png" id="63_Advanced ReConnaissance-170" data-flag="@X" onclick="openSidebar('63_Advanced ReConnaissance-170',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\86_Clone Gunner.png" id="86_Clone Gunner" data-flag="@X" onclick="openSidebar('86_Clone Gunner',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\2_Battle Brothers.png" id="2_Battle Brothers" data-flag="@X" onclick="openSidebar('2_Battle Brothers',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\41_Senate Guard.png" id="41_Senate Guard" data-flag="@X" onclick="openSidebar('41_Senate Guard',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\44_B1-Battledroid Pilot.png" id="44_B1-Battledroid Pilot" data-flag="@X" onclick="openSidebar('44_B1-Battledroid Pilot',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\65_B2-Battledroid Squadron.png" id="65_B2-Battledroid Squadron" data-flag="@X" onclick="openSidebar('65_B2-Battledroid Squadron',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\88_Droideka-Marksman.png" id="88_Droideka-Marksman" data-flag="@X" onclick="openSidebar('88_Droideka-Marksman',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\8_Clone-Trooper.png" id="8_Clone-Trooper" data-flag="@X" onclick="openSidebar('8_Clone-Trooper',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\22_All Terrain Reconnaissance Transport.png" id="22_All Terrain Reconnaissance Transport" data-flag="@X" onclick="openSidebar('22_All Terrain Reconnaissance Transport',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\45_Black Sun Foot Soldier.png" id="45_Black Sun Foot Soldier" data-flag="@X" onclick="openSidebar('45_Black Sun Foot Soldier',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\70_Ginivex-Class Fanblade Starfighter.png" id="70_Ginivex-Class Fanblade Starfighter" data-flag="@X" onclick="openSidebar('70_Ginivex-Class Fanblade Starfighter',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\89_Force Animal Bond.png" id="89_Force Animal Bond" data-flag="@X" onclick="openSidebar('89_Force Animal Bond',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\11_Force Blinding.png" id="11_Force Blinding" data-flag="@X" onclick="openSidebar('11_Force Blinding',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\25_Clone Heavy Gunner.png" id="25_Clone Heavy Gunner" data-flag="@X" onclick="openSidebar('25_Clone Heavy Gunner',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\46_Clone Protocol 66.png" id="46_Clone Protocol 66" data-flag="@X" onclick="openSidebar('46_Clone Protocol 66',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\71_Infantry of the 327th.png" id="71_Infantry of the 327th" data-flag="@X" onclick="openSidebar('71_Infantry of the 327th',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\90_Force Barrier.png" id="90_Force Barrier" data-flag="@X" onclick="openSidebar('90_Force Barrier',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\12_Infantry of the 212th.png" id="12_Infantry of the 212th" data-flag="@X" onclick="openSidebar('12_Infantry of the 212th',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\26_Clone Pilot.png" id="26_Clone Pilot" data-flag="@X" onclick="openSidebar('26_Clone Pilot',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\49_Dark Ritual.png" id="49_Dark Ritual" data-flag="@X" onclick="openSidebar('49_Dark Ritual',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\72_Jawa Scavenger.png" id="72_Jawa Scavenger" data-flag="@X" onclick="openSidebar('72_Jawa Scavenger',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\91_Infantry of the 104th.png" id="91_Infantry of the 104th" data-flag="@X" onclick="openSidebar('91_Infantry of the 104th',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\13_Phase I Clone-Trooper.png" id="13_Phase I Clone-Trooper" data-flag="@X" onclick="openSidebar('13_Phase I Clone-Trooper',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\28_Delta-7A Jedi Starfighter.png" id="28_Delta-7A Jedi Starfighter" data-flag="@X" onclick="openSidebar('28_Delta-7A Jedi Starfighter',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\50_Droid Tri-Fighter.png" id="50_Droid Tri-Fighter" data-flag="@X" onclick="openSidebar('50_Droid Tri-Fighter',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\73_Locked On.png" id="73_Locked On" data-flag="@X" onclick="openSidebar('73_Locked On',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\92_Multi-Troop Transport.png" id="92_Multi-Troop Transport" data-flag="@X" onclick="openSidebar('92_Multi-Troop Transport',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\14_Phase II Clone-Trooper.png" id="14_Phase II Clone-Trooper" data-flag="@X" onclick="openSidebar('14_Phase II Clone-Trooper',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\29_Delta-7B Jedi Starfighter.png" id="29_Delta-7B Jedi Starfighter" data-flag="@X" onclick="openSidebar('29_Delta-7B Jedi Starfighter',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\52_I Have You Now.png" id="52_I Have You Now" data-flag="@X" onclick="openSidebar('52_I Have You Now',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\75_Lotho Minor Junker.png" id="75_Lotho Minor Junker" data-flag="@X" onclick="openSidebar('75_Lotho Minor Junker',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\94_R6-D8, Hearld of Hope.png" id="94_R6-D8, Hearld of Hope" data-flag="@X" onclick="openSidebar('94_R6-D8, Hearld of Hope',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\18_Stormtrooper.png" id="18_Stormtrooper" data-flag="@X" onclick="openSidebar('18_Stormtrooper',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\31_Force Leap.png" id="31_Force Leap" data-flag="@X" onclick="openSidebar('31_Force Leap',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\54_Infantry of the 187th.png" id="54_Infantry of the 187th" data-flag="@X" onclick="openSidebar('54_Infantry of the 187th',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\78_Tusken Raiders.png" id="78_Tusken Raiders" data-flag="@X" onclick="openSidebar('78_Tusken Raiders',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\96_Twi'lek Captive.png" id="96_Twilek Captive" data-flag="@X" onclick="openSidebar('96_Twilek Captive',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\19_TK Trooper.png" id="19_TK Trooper" data-flag="@X" onclick="openSidebar('19_TK Trooper',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\33_Force Precognition.png" id="33_Force Precognition" data-flag="@X" onclick="openSidebar('33_Force Precognition',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\56_Munificent-Class Star Frigate.png" id="56_Munificent-Class Star Frigate" data-flag="@X" onclick="openSidebar('56_Munificent-Class Star Frigate',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\79_V-Wing Starfighter.png" id="79_V-Wing Starfighter" data-flag="@X" onclick="openSidebar('79_V-Wing Starfighter',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\20_V-19 Torrent Starfighter.png" id="20_V-19 Torrent Starfighter" data-flag="@X" onclick="openSidebar('20_V-19 Torrent Starfighter',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\34_Force Push.png" id="34_Force Push" data-flag="@X" onclick="openSidebar('34_Force Push',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\57_Oil Spill.png" id="57_Oil Spill" data-flag="@X" onclick="openSidebar('57_Oil Spill',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\80_Vulture-class Starfighter.png" id="80_Vulture-class Starfighter" data-flag="@X" onclick="openSidebar('80_Vulture-class Starfighter',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\21_Z-95 Starfighter.png" id="21_Z-95 Starfighter" data-flag="@X" onclick="openSidebar('21_Z-95 Starfighter',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\36_Infantry of the 501st.png" id="36_Infantry of the 501st" data-flag="@X" onclick="openSidebar('36_Infantry of the 501st',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\58_Pistoeka Sabotage Droid.png" id="58_Pistoeka Sabotage Droid" data-flag="@X" onclick="openSidebar('58_Pistoeka Sabotage Droid',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\42_Trident-Class Assault Ship.png" id="42_Trident-Class Assault Ship" data-flag="@X" onclick="openSidebar('42_Trident-Class Assault Ship',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\153_Obi-Wan Kenobi, Soresu Master.png" id="153_Obi-Wan Kenobi, Soresu Master" data-flag="@X" onclick="openSidebar('153_Obi-Wan Kenobi, Soresu Master',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\141_Jango Fett, Bounty Hunter.png" id="141_Jango Fett, Bounty Hunter" data-flag="@X" onclick="openSidebar('141_Jango Fett, Bounty Hunter',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\144_Lord Vader.png" id="144_Lord Vader" data-flag="@X" onclick="openSidebar('144_Lord Vader',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\104_ARC-77, Fordo.png" id="104_ARC-77, Fordo" data-flag="@X" onclick="openSidebar('104_ARC-77, Fordo',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\115_Cody, 212th Captain.png" id="115_Cody, 212th Captain" data-flag="@X" onclick="openSidebar('115_Cody, 212th Captain',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\100_Ahsoka Tano, Padawan Learner.png" id="100_Ahsoka Tano, Padawan Learner" data-flag="@X" onclick="openSidebar('100_Ahsoka Tano, Padawan Learner',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\145_Lucrehulk-Class Battleship.png" id="145_Lucrehulk-Class Battleship" data-flag="@X" onclick="openSidebar('145_Lucrehulk-Class Battleship',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\108_Asajj Ventress, Sith Assassin.png" id="108_Asajj Ventress, Sith Assassin" data-flag="@X" onclick="openSidebar('108_Asajj Ventress, Sith Assassin',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\109_B3-Super Battledroid.png" id="109_B3-Super Battledroid" data-flag="@X" onclick="openSidebar('109_B3-Super Battledroid',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\167_Satine Kryze, Neutrality Advocate.png" id="167_Satine Kryze, Neutrality Advocate" data-flag="@X" onclick="openSidebar('167_Satine Kryze, Neutrality Advocate',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\105_ARC-0408, Echo.png" id="105_ARC-0408, Echo" data-flag="@X" onclick="openSidebar('105_ARC-0408, Echo',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\113_BX-Commando Droid.png" id="113_BX-Commando Droid" data-flag="@X" onclick="openSidebar('113_BX-Commando Droid',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\137_HMP Droid Gunship.png" id="137_HMP Droid Gunship" data-flag="@X" onclick="openSidebar('137_HMP Droid Gunship',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\118_CT-9903, Wrecker.png" id="118_CT-9903, Wrecker" data-flag="@X" onclick="openSidebar('118_CT-9903, Wrecker',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\124_Emergency Powers Act.png" id="124_Emergency Powers Act" data-flag="@X" onclick="openSidebar('124_Emergency Powers Act',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\176_Venator-class Star Destroyer.png" id="176_Venator-class Star Destroyer" data-flag="@X" onclick="openSidebar('176_Venator-class Star Destroyer',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\160_Providence-Class Dreadnought.png" id="160_Providence-Class Dreadnought" data-flag="@X" onclick="openSidebar('160_Providence-Class Dreadnought',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\146_Mace Windu, Party Crasher.png" id="146_Mace Windu, Party Crasher" data-flag="@X" onclick="openSidebar('146_Mace Windu, Party Crasher',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\139_IG-227 Hailfire-Class Droid Tank.png" id="139_IG-227 Hailfire-Class Droid Tank" data-flag="@X" onclick="openSidebar('139_IG-227 Hailfire-Class Droid Tank',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\150_Mina Bonteri, Seperatist Senator.png" id="150_Mina Bonteri, Seperatist Senator" data-flag="@X" onclick="openSidebar('150_Mina Bonteri, Seperatist Senator',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\116_CT-1409, Echo.png" id="116_CT-1409, Echo" data-flag="@X" onclick="openSidebar('116_CT-1409, Echo',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\163_Recusant-Class Light Destroyer.png" id="163_Recusant-Class Light Destroyer" data-flag="@X" onclick="openSidebar('163_Recusant-Class Light Destroyer',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\126_Finanical Reform Bill.png" id="126_Finanical Reform Bill" data-flag="@X" onclick="openSidebar('126_Finanical Reform Bill',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\168_Savage Opress, The Monster.png" id="168_Savage Opress, The Monster" data-flag="@X" onclick="openSidebar('168_Savage Opress, The Monster',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\120_Deflect Attacks.png" id="120_Deflect Attacks" data-flag="@X" onclick="openSidebar('120_Deflect Attacks',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\184_Umbaran Millicreep Droid.png" id="184_Umbaran Millicreep Droid" data-flag="@X" onclick="openSidebar('184_Umbaran Millicreep Droid',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\164_Reduced Military Spending Bill.png" id="164_Reduced Military Spending Bill" data-flag="@X" onclick="openSidebar('164_Reduced Military Spending Bill',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\169_Super Tactical Droid.png" id="169_Super Tactical Droid" data-flag="@X" onclick="openSidebar('169_Super Tactical Droid',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\181_Omega, of The Bad Batch.png" id="181_Omega, of The Bad Batch" data-flag="@X" onclick="openSidebar('181_Omega, of The Bad Batch',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\128_Force Choak.png" id="128_Force Choak" data-flag="@X" onclick="openSidebar('128_Force Choak',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\170_T-Series Tactical Droid.png" id="170_T-Series Tactical Droid" data-flag="@X" onclick="openSidebar('170_T-Series Tactical Droid',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\171_Take it for Parts.png" id="171_Take it for Parts" data-flag="@X" onclick="openSidebar('171_Take it for Parts',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\103_ARC Troopers.png" id="103_ARC Troopers" data-flag="@X" onclick="openSidebar('103_ARC Troopers',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\162_Pyke Syndicate Goon.png" id="162_Pyke Syndicate Goon" data-flag="@X" onclick="openSidebar('162_Pyke Syndicate Goon',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\129_Force Lightning.png" id="129_Force Lightning" data-flag="@X" onclick="openSidebar('129_Force Lightning',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\107_Armored Assault Tank.png" id="107_Armored Assault Tank" data-flag="@X" onclick="openSidebar('107_Armored Assault Tank',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\140_Infantry of the 332nd.png" id="140_Infantry of the 332nd" data-flag="@X" onclick="openSidebar('140_Infantry of the 332nd',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\138_Hyena Bomber.png" id="138_Hyena Bomber" data-flag="@X" onclick="openSidebar('138_Hyena Bomber',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\131_Fox, Coruscant Guard Commander.png" id="131_Fox, Coruscant Guard Commander" data-flag="@X" onclick="openSidebar('131_Fox, Coruscant Guard Commander',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\102_Anakin Skywalker, Starpilot.png" id="102_Anakin Skywalker, Starpilot" data-flag="@X" onclick="openSidebar('102_Anakin Skywalker, Starpilot',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\136_High Queen Karina the Great.png" id="136_High Queen Karina the Great" data-flag="@X" onclick="openSidebar('136_High Queen Karina the Great',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\101_Anakin Skywalker, Fallen.png" id="101_Anakin Skywalker, Fallen" data-flag="@X" onclick="openSidebar('101_Anakin Skywalker, Fallen',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\154_Padmé Amidala, Naboo Senator.png" id="154_Padmé Amidala, Naboo Senator" data-flag="@X" onclick="openSidebar('154_Padmé Amidala, Naboo Senator',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\135_General Pong Krell.png" id="135_General Pong Krell" data-flag="@X" onclick="openSidebar('135_General Pong Krell',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\106_ARC-5555, Fives.png" id="106_ARC-5555, Fives" data-flag="@X" onclick="openSidebar('106_ARC-5555, Fives',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\174_Trench, Harch Admiral.png" id="174_Trench, Harch Admiral" data-flag="@X" onclick="openSidebar('174_Trench, Harch Admiral',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\165_Rex, 501st Captain.png" id="165_Rex, 501st Captain" data-flag="@X" onclick="openSidebar('165_Rex, 501st Captain',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\114_Cloning Facilities.png" id="114_Cloning Facilities" data-flag="@X" onclick="openSidebar('114_Cloning Facilities',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\155_Palpatine, Supreme Chancelor.png" id="155_Palpatine, Supreme Chancelor" data-flag="@X" onclick="openSidebar('155_Palpatine, Supreme Chancelor',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\159_Poggle the Lesser, Archduke.png" id="159_Poggle the Lesser, Archduke" data-flag="@X" onclick="openSidebar('159_Poggle the Lesser, Archduke',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\121_Dianoga.png" id="121_Dianoga" data-flag="@X" onclick="openSidebar('121_Dianoga',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\166_The Ronin.png" id="166_The Ronin" data-flag="@X" onclick="openSidebar('166_The Ronin',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\152_Nala Se, Clone Engineer.png" id="152_Nala Se, Clone Engineer" data-flag="@X" onclick="openSidebar('152_Nala Se, Clone Engineer',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\110_Barriss Offee, Fallen Jedi.png" id="110_Barriss Offee, Fallen Jedi" data-flag="@X" onclick="openSidebar('110_Barriss Offee, Fallen Jedi',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\175_Trench, Naval Commander.png" id="175_Trench, Naval Commander" data-flag="@X" onclick="openSidebar('175_Trench, Naval Commander',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\123_DSD1-Dwarf Spider Droid.png" id="123_DSD1-Dwarf Spider Droid" data-flag="@X" onclick="openSidebar('123_DSD1-Dwarf Spider Droid',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\132_Gar Saxon, Super Commando.png" id="132_Gar Saxon, Super Commando" data-flag="@X" onclick="openSidebar('132_Gar Saxon, Super Commando',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\149_Mercenary Training.png" id="149_Mercenary Training" data-flag="@X" onclick="openSidebar('149_Mercenary Training',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\161_Pursuit of Peace.png" id="161_Pursuit of Peace" data-flag="@X" onclick="openSidebar('161_Pursuit of Peace',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\112_Boba Fett, Son of Fett.png" id="112_Boba Fett, Son of Fett" data-flag="@X" onclick="openSidebar('112_Boba Fett, Son of Fett',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\99_Acclamator-Class Assault Ship.png" id="99_Acclamator-Class Assault Ship" data-flag="@X" onclick="openSidebar('99_Acclamator-Class Assault Ship',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\179_CT-9415, Hardcase.png" id="179_CT-9415, Hardcase" data-flag="@X" onclick="openSidebar('179_CT-9415, Hardcase',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\173_Thorn, Coruscant Guard Captain.png" id="173_Thorn, Coruscant Guard Captain" data-flag="@X" onclick="openSidebar('173_Thorn, Coruscant Guard Captain',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\130_Force Stasis.png" id="130_Force Stasis" data-flag="@X" onclick="openSidebar('130_Force Stasis',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\143_Lightsaber Throw.png" id="143_Lightsaber Throw" data-flag="@X" onclick="openSidebar('143_Lightsaber Throw',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\125_The Father, Bendu.png" id="125_The Father, Bendu" data-flag="@X" onclick="openSidebar('125_The Father, Bendu',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\119_Darth Maul, Hate Fueled.png" id="119_Darth Maul, Hate Fueled" data-flag="@X" onclick="openSidebar('119_Darth Maul, Hate Fueled',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\142_Jawa Auctioneer.png" id="142_Jawa Auctioneer" data-flag="@X" onclick="openSidebar('142_Jawa Auctioneer',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\177_Yoda, Jedi Grandmaster.png" id="177_Yoda, Jedi Grandmaster" data-flag="@X" onclick="openSidebar('177_Yoda, Jedi Grandmaster',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\178_Ziro the Hutt, Crime Boss.png" id="178_Ziro the Hutt, Crime Boss" data-flag="@X" onclick="openSidebar('178_Ziro the Hutt, Crime Boss',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\156_Palpatine, Unlimited Power.png" id="156_Palpatine, Unlimited Power" data-flag="@X" onclick="openSidebar('156_Palpatine, Unlimited Power',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\180_The Daughter, Ashla.png" id="180_The Daughter, Ashla" data-flag="@X" onclick="openSidebar('180_The Daughter, Ashla',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\183_The Son, Bogan.png" id="183_The Son, Bogan" data-flag="@X" onclick="openSidebar('183_The Son, Bogan',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\158_Plo Koon's Force Judgement.png" id="158_Plo Koons Force Judgement" data-flag="@X" onclick="openSidebar('158_Plo Koons Force Judgement',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\122_Dooku, Count of Serenno.png" id="122_Dooku, Count of Serenno" data-flag="@X" onclick="openSidebar('122_Dooku, Count of Serenno',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\147_Maul, Formerly Darth.png" id="147_Maul, Formerly Darth" data-flag="@X" onclick="openSidebar('147_Maul, Formerly Darth',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\157_Palpatine's Force Lightning.png" id="157_Palpatines Force Lightning" data-flag="@X" onclick="openSidebar('157_Palpatines Force Lightning',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\133_General Grievous. Lightsaber Collector.png" id="133_General Grievous. Lightsaber Collector" data-flag="@X" onclick="openSidebar('133_General Grievous. Lightsaber Collector',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\111_Bo Katan Kryze, Terrorist.png" id="111_Bo Katan Kryze, Terrorist" data-flag="@X" onclick="openSidebar('111_Bo Katan Kryze, Terrorist',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\151_Mother Talzin.png" id="151_Mother Talzin" data-flag="@X" onclick="openSidebar('151_Mother Talzin',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\127_A Fine Addition to My Collection.png" id="127_A Fine Addition to My Collection" data-flag="@X" onclick="openSidebar('127_A Fine Addition to My Collection',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\117_CT-9901, Hunter.png" id="117_CT-9901, Hunter" data-flag="@X" onclick="openSidebar('117_CT-9901, Hunter',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\134_General Kalani.png" id="134_General Kalani" data-flag="@X" onclick="openSidebar('134_General Kalani',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\148_Maul, Reborn Son of Dathomir.png" id="148_Maul, Reborn Son of Dathomir" data-flag="@X" onclick="openSidebar('148_Maul, Reborn Son of Dathomir',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\195_Jedi Holocron.png" id="195_Jedi Holocron" data-flag="@X" onclick="openSidebar('195_Jedi Holocron',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\202_Sith Holocron.png" id="202_Sith Holocron" data-flag="@X" onclick="openSidebar('202_Sith Holocron',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\194_Infantry Support Platform.png" id="194_Infantry Support Platform" data-flag="@X" onclick="openSidebar('194_Infantry Support Platform',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\196_LM-432 Crab Droid.png" id="196_LM-432 Crab Droid" data-flag="@X" onclick="openSidebar('196_LM-432 Crab Droid',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\200_SD-K4 Assassin Droid.png" id="200_SD-K4 Assassin Droid" data-flag="@X" onclick="openSidebar('200_SD-K4 Assassin Droid',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\185_AAT Driver Battle Droid.png" id="185_AAT Driver Battle Droid" data-flag="@X" onclick="openSidebar('185_AAT Driver Battle Droid',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\186_B1-Battledroid.png" id="186_B1-Battledroid" data-flag="@X" onclick="openSidebar('186_B1-Battledroid',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\187_B1-Battledroid Squadron.png" id="187_B1-Battledroid Squadron" data-flag="@X" onclick="openSidebar('187_B1-Battledroid Squadron',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\188_Beak-Wing Fighter.png" id="188_Beak-Wing Fighter" data-flag="@X" onclick="openSidebar('188_Beak-Wing Fighter',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\189_Biker Advanced Recon Commando.png" id="189_Biker Advanced Recon Commando" data-flag="@X" onclick="openSidebar('189_Biker Advanced Recon Commando',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\190_Black Kyber Crystal.png" id="190_Black Kyber Crystal" data-flag="@X" onclick="openSidebar('190_Black Kyber Crystal',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\191_Blue Kyber Crystal.png" id="191_Blue Kyber Crystal" data-flag="@X" onclick="openSidebar('191_Blue Kyber Crystal',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\192_Green Kyber Crystal.png" id="192_Green Kyber Crystal" data-flag="@X" onclick="openSidebar('192_Green Kyber Crystal',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\193_Hologram.png" id="193_Hologram" data-flag="@X" onclick="openSidebar('193_Hologram',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\197_NR-N99 Persuader-Class Droid.png" id="197_NR-N99 Persuader-Class Droid" data-flag="@X" onclick="openSidebar('197_NR-N99 Persuader-Class Droid',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\198_Red Kyber Crystal.png" id="198_Red Kyber Crystal" data-flag="@X" onclick="openSidebar('198_Red Kyber Crystal',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\201_Single Trooper Ariel Platform.png" id="201_Single Trooper Ariel Platform" data-flag="@X" onclick="openSidebar('201_Single Trooper Ariel Platform',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\203_White Kyber Crystal.png" id="203_White Kyber Crystal" data-flag="@X" onclick="openSidebar('203_White Kyber Crystal',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\225_Scarif.png" id="225_Scarif" data-flag="@X" onclick="openSidebar('225_Scarif',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\205_Christophsis.png" id="205_Christophsis" data-flag="@X" onclick="openSidebar('205_Christophsis',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\218_Mustafar.png" id="218_Mustafar" data-flag="@X" onclick="openSidebar('218_Mustafar',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\222_Onderon.png" id="222_Onderon" data-flag="@X" onclick="openSidebar('222_Onderon',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\214_Kashyyyk.png" id="214_Kashyyyk" data-flag="@X" onclick="openSidebar('214_Kashyyyk',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\215_Lambda-Class Shuttle.png" id="215_Lambda-Class Shuttle" data-flag="@X" onclick="openSidebar('215_Lambda-Class Shuttle',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\212_Dual Hemisphere-Omni Supply Ship.png" id="212_Dual Hemisphere-Omni Supply Ship" data-flag="@X" onclick="openSidebar('212_Dual Hemisphere-Omni Supply Ship',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\224_Phantom-Class Shuttle.png" id="224_Phantom-Class Shuttle" data-flag="@X" onclick="openSidebar('224_Phantom-Class Shuttle',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\226_T-6 Shuttle.png" id="226_T-6 Shuttle" data-flag="@X" onclick="openSidebar('226_T-6 Shuttle',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\208_CR90 Relief Runner.png" id="208_CR90 Relief Runner" data-flag="@X" onclick="openSidebar('208_CR90 Relief Runner',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\204_Bureau of Standards.png" id="204_Bureau of Standards" data-flag="@X" onclick="openSidebar('204_Bureau of Standards',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\223_Pelta-Class Frigate.png" id="223_Pelta-Class Frigate" data-flag="@X" onclick="openSidebar('223_Pelta-Class Frigate',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\219_Nal Hutta.png" id="219_Nal Hutta" data-flag="@X" onclick="openSidebar('219_Nal Hutta',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\209_Crait.png" id="209_Crait" data-flag="@X" onclick="openSidebar('209_Crait',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\210_Dagobah.png" id="210_Dagobah" data-flag="@X" onclick="openSidebar('210_Dagobah',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\229_Zeta-Class Imperial Shuttle.png" id="229_Zeta-Class Imperial Shuttle" data-flag="@X" onclick="openSidebar('229_Zeta-Class Imperial Shuttle',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\228_Upsilon-Class Command Shuttle.png" id="228_Upsilon-Class Command Shuttle" data-flag="@X" onclick="openSidebar('228_Upsilon-Class Command Shuttle',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\221_NU-Class Attack Shuttle.png" id="221_NU-Class Attack Shuttle" data-flag="@X" onclick="openSidebar('221_NU-Class Attack Shuttle',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\216_Maxillipede Shuttle.png" id="216_Maxillipede Shuttle" data-flag="@X" onclick="openSidebar('216_Maxillipede Shuttle',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\233_Swamp.png" id="233_Swamp" data-flag="@X" onclick="openSidebar('233_Swamp',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\231_Plains.png" id="231_Plains" data-flag="@X" onclick="openSidebar('231_Plains',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\234_Mountain.png" id="234_Mountain" data-flag="@X" onclick="openSidebar('234_Mountain',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\232_Island.png" id="232_Island" data-flag="@X" onclick="openSidebar('232_Island',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\235_Forest.png" id="235_Forest" data-flag="@X" onclick="openSidebar('235_Forest',false)"></div>
+			<div class="container"><img alt="/sets\TCW-files\img\230_Wastes.png" id="230_Wastes" data-flag="@X" onclick="openSidebar('230_Wastes',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>

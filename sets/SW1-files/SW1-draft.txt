@@ -2789,43 +2789,43 @@
 			}
 		},
 		{
-			"name": "TIE/LN Starfighter",
+			"name": "TIE Starfighter",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Artifact — Vehicle ",
 			"collector_number": "80",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/80_TIE/LN Starfighter.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/80_TIE Starfighter.png"
 			}
 		},
 		{
-			"name": "TIE/CA Punisher",
+			"name": "TIE Punisher",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Artifact — Vehicle ",
 			"collector_number": "232",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/232_TIE/CA Punisher.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/232_TIE Punisher.png"
 			}
 		},
 		{
-			"name": "TIE/IN Interceptor",
+			"name": "TIE Interceptor",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "79",
+			"collector_number": "78",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/79_TIE/IN Interceptor.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/78_TIE Interceptor.png"
 			}
 		},
 		{
-			"name": "TIE/D Defender",
+			"name": "TIE Defender",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Artifact — Vehicle ",
 			"collector_number": "52",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/52_TIE/D Defender.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/52_TIE Defender.png"
 			}
 		},
 		{
@@ -3023,9 +3023,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Pilot ",
-			"collector_number": "78",
+			"collector_number": "79",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/78_TIE Pilot.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/79_TIE Pilot.png"
 			}
 		},
 		{
@@ -3213,8 +3213,8 @@
 9 Mind Tricks Don't Work On Me
 9 The Holdo Maneuver
 9 StarViper-Class Attack Platform
-9 TIE/CA Punisher
-9 TIE/D Defender
+9 TIE Punisher
+9 TIE Defender
 9 Captor-class Cruiser
 9 Quasar Fire II-Class Carrier
 9 Force Projection
@@ -3311,8 +3311,8 @@
 30 Blast 'Em!
 30 Ion Blast
 30 Crimson Dawn Interceptor
-30 TIE/LN Starfighter
-30 TIE/IN Interceptor
+30 TIE Starfighter
+30 TIE Interceptor
 30 C-9979 Landing Craft
 30 Stormtrooper Squadron
 30 Rebel

@@ -3,11 +3,11 @@
 		{
 			"name": "Yinlin, Lightning of Execution",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{R}",
+			"mana_cost": "{3}{R}",
 			"type": "Legendary Creature — Human ",
-			"collector_number": "23",
+			"collector_number": "30",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/23_Yinlin, Lightning of Execution.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/30_Yinlin, Lightning of Execution.png"
 			}
 		},
 		{
@@ -15,9 +15,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}{R}",
 			"type": "Legendary Creature — Human Shapeshifter ",
-			"collector_number": "20",
+			"collector_number": "26",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/20_Changli, Eternal Blaze.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/26_Changli, Eternal Blaze.png"
 			}
 		},
 		{
@@ -25,9 +25,9 @@
 			"rarity": "rare",
 			"mana_cost": "{W}",
 			"type": "Legendary Creature — Human ",
-			"collector_number": "1",
+			"collector_number": "2",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/1_Baizhi, Healing You'tan.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/2_Baizhi, Healing You'tan.png"
 			}
 		},
 		{
@@ -35,9 +35,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{U}",
 			"type": "Legendary Creature — Construct ",
-			"collector_number": "9",
+			"collector_number": "13",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/9_Shorekeeper, Euphonic Chrysalis.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/13_Shorekeeper, Euphonic Chrysalis.png"
 			}
 		},
 		{
@@ -45,9 +45,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Legendary Creature — Human ",
-			"collector_number": "26",
+			"collector_number": "34",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/26_Verina, Nature Calling.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/34_Verina, Nature Calling.png"
 			}
 		},
 		{
@@ -55,9 +55,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{B}{B}",
 			"type": "Legendary Creature — Human ",
-			"collector_number": "13",
+			"collector_number": "18",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/13_Camellya, Sanguine Blossom.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/18_Camellya, Sanguine Blossom.png"
 			}
 		},
 		{
@@ -65,9 +65,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}{W}",
 			"type": "Legendary Creature — Human ",
-			"collector_number": "2",
+			"collector_number": "4",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/2_Jinhsi, Thawborn Renewal.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/4_Jinhsi, Thawborn Renewal.png"
 			}
 		},
 		{
@@ -75,9 +75,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Legendary Creature — Human Soldier ",
-			"collector_number": "25",
+			"collector_number": "33",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/25_Taoqi, Blossom of Slashes.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/33_Taoqi, Blossom of Slashes.png"
 			}
 		},
 		{
@@ -85,19 +85,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}",
 			"type": "Legendary Creature — Human ",
-			"collector_number": "11",
+			"collector_number": "16",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/11_Zhezhi, Enchanted Brush.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/16_Zhezhi, Enchanted Brush.png"
 			}
 		},
 		{
 			"name": "Danjin, Scarlet Shade",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}",
-			"type": "Legendary Creature — Human ",
-			"collector_number": "14",
+			"type": "Legendary Creature — Human Soldier ",
+			"collector_number": "19",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/14_Danjin, Scarlet Shade.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/19_Danjin, Scarlet Shade.png"
 			}
 		},
 		{
@@ -105,9 +105,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary Creature — Human Pirate ",
-			"collector_number": "19",
+			"collector_number": "25",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/19_Brant, Flamebound Compass.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/25_Brant, Flamebound Compass.png"
 			}
 		},
 		{
@@ -115,9 +115,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}",
 			"type": "Legendary Creature — Human ",
-			"collector_number": "7",
+			"collector_number": "11",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/7_Cantarella, The Bane.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/11_Cantarella, The Bane.png"
 			}
 		},
 		{
@@ -125,9 +125,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}",
 			"type": "Legendary Creature — Human Noble ",
-			"collector_number": "8",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/8_Carlotta, Crystal Remorph.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/12_Carlotta, Crystal Remorph.png"
 			}
 		},
 		{
@@ -135,9 +135,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{U}",
 			"type": "Legendary Creature — Human Artificer ",
-			"collector_number": "10",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/10_Xiangli Yao, Matter Weaver.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/14_Xiangli Yao, Matter Weaver.png"
 			}
 		},
 		{
@@ -145,9 +145,9 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{W}",
 			"type": "Legendary Creature — Human Cleric ",
-			"collector_number": "4",
+			"collector_number": "6",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/4_Phoebe, Graceful Luminescence.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/6_Phoebe, Graceful Luminescence.png"
 			}
 		},
 		{
@@ -155,9 +155,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary Creature — Human Cat ",
-			"collector_number": "22",
+			"collector_number": "28",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/22_Lingyang, Frosty Gusto.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/28_Lingyang, Frosty Gusto.png"
 			}
 		},
 		{
@@ -165,9 +165,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Legendary Creature — Human  Performer ",
-			"collector_number": "24",
+			"collector_number": "32",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/24_Roccia, Stage in the Box.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/32_Roccia, Stage in the Box.png"
 			}
 		},
 		{
@@ -175,9 +175,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Legendary Creature — Human ",
-			"collector_number": "15",
+			"collector_number": "20",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/15_Encore, Wooly–Counting.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/20_Encore, Wooly–Counting.png"
 			}
 		},
 		{
@@ -185,9 +185,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{W}",
 			"type": "Legendary Creature — Human ",
-			"collector_number": "5",
+			"collector_number": "7",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/5_Rover, Spectro.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/7_Rover, Spectro.png"
 			}
 		},
 		{
@@ -195,9 +195,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Legendary Creature — Human Soldier ",
-			"collector_number": "6",
+			"collector_number": "8",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/6_Sanhua, Snow Waltz.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/8_Sanhua, Snow Waltz.png"
 			}
 		},
 		{
@@ -205,9 +205,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}",
 			"type": "Legendary Creature — Human Soldier ",
-			"collector_number": "27",
+			"collector_number": "35",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/27_Yangyang, Breath of Winds.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/35_Yangyang, Breath of Winds.png"
 			}
 		},
 		{
@@ -215,9 +215,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{6}{R}",
 			"type": "Legendary Creature — Human Soldier ",
-			"collector_number": "21",
+			"collector_number": "27",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/21_Chixia, Gallant Blaze.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/27_Chixia, Gallant Blaze.png"
 			}
 		},
 		{
@@ -225,9 +225,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{8}{B}",
 			"type": "Legendary Creature — Human ",
-			"collector_number": "17",
+			"collector_number": "22",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/17_Rover, Havoc.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/22_Rover, Havoc.png"
 			}
 		},
 		{
@@ -235,9 +235,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{5}{B}",
 			"type": "Legendary Creature — Human Shapeshifter ",
-			"collector_number": "18",
+			"collector_number": "23",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/18_Scar, Lightbane Reversal.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/23_Scar, Lightbane Reversal.png"
 			}
 		},
 		{
@@ -245,9 +245,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}",
 			"type": "Legendary Creature — Human Soldier ",
-			"collector_number": "12",
+			"collector_number": "17",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/12_Calcharo, Phantom Hunters.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/17_Calcharo, Phantom Hunters.png"
 			}
 		},
 		{
@@ -255,9 +255,9 @@
 			"rarity": "mythic",
 			"mana_cost": "",
 			"type": "Token Legendary Creature — Illusion ",
-			"collector_number": "16",
+			"collector_number": "21",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/16_Phantom.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/21_Phantom.png"
 			}
 		},
 		{
@@ -265,9 +265,89 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}{W}",
 			"type": "Legendary Creature — Human Soldier ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/5_Jiyan, Midnight Ranger General.png"
+			}
+		},
+		{
+			"name": "Youhu, Cryogenic Wonders",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Human ",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/15_Youhu, Cryogenic Wonders.png"
+			}
+		},
+		{
+			"name": "Mortefi, Dragon's Breath",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Human Artificer ",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/29_Mortefi, Dragon's Breath.png"
+			}
+		},
+		{
+			"name": "Yuanwu, Fist of Thunder",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Human  ",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/31_Yuanwu, Fist of Thunder.png"
+			}
+		},
+		{
+			"name": "Aalto, Mistcloak Strike",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Human ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/1_Aalto, Mistcloak Strike.png"
+			}
+		},
+		{
+			"name": "Jianxin, Cleansing Reflections",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Human Monk ",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/WUWA-files/img/3_Jiyan, Midnight Ranger General.png"
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/3_Jianxin, Cleansing Reflections.png"
+			}
+		},
+		{
+			"name": "Sentinel Jue, Jinzhou Sentinel",
+			"rarity": "mythic",
+			"mana_cost": "{9}{W}",
+			"type": "Legendary Creature — Dragon ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/9_Sentinel Jue, Jinzhou Sentinel.png"
+			}
+		},
+		{
+			"name": "Zani, Montelli Bodyguard",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Human ",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/24_Zani, Montelli Bodyguard.png"
+			}
+		},
+		{
+			"name": "Yhan, Training Instructor",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Legendary Creature — Human Soldier ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/WUWA-files/img/10_Yhan, Training Instructor.png"
 			}
 		}
 	]
@@ -278,6 +358,7 @@
 2 Carlotta, Crystal Remorph
 2 Phoebe, Graceful Luminescence
 2 Yangyang, Breath of Winds
+2 Zani, Montelli Bodyguard
 1 Changli, Eternal Blaze
 1 Shorekeeper, Euphonic Chrysalis
 1 Jinhsi, Thawborn Renewal
@@ -286,6 +367,7 @@
 1 Scar, Lightbane Reversal
 1 Phantom
 1 Jiyan, Midnight Ranger General
+1 Sentinel Jue, Jinzhou Sentinel
 [UncommonSlot(3)]
 9 Yinlin, Lightning of Execution
 9 Verina, Nature Calling
@@ -300,5 +382,11 @@
 9 Sanhua, Snow Waltz
 9 Chixia, Gallant Blaze
 9 Calcharo, Phantom Hunters
+9 Youhu, Cryogenic Wonders
+9 Mortefi, Dragon's Breath
+9 Yuanwu, Fist of Thunder
+9 Aalto, Mistcloak Strike
+9 Jianxin, Cleansing Reflections
+9 Yhan, Training Instructor
 [CommonSlot(11)]
 [LandSlot(1)]

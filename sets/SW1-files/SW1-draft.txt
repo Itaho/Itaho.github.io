@@ -2031,7 +2031,7 @@
 		{
 			"name": "Umbaran Millicreep Droid",
 			"rarity": "uncommon",
-			"mana_cost": "{U/B}",
+			"mana_cost": "{1{U}/B}",
 			"type": "Artifact Creature — Robot ",
 			"collector_number": "253",
 			"image_uris": {
@@ -2991,7 +2991,7 @@
 		{
 			"name": "Force Doppelganger",
 			"rarity": "rare",
-			"mana_cost": "{3}{U}",
+			"mana_cost": "{3}{U}{U}",
 			"type": "Enchantment — Aura ",
 			"collector_number": "34",
 			"image_uris": {

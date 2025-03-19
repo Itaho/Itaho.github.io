@@ -5,9 +5,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Legendary Creature — Human Soldier  ",
-			"collector_number": "60",
+			"collector_number": "58",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/60_CT-9904, Crosshair.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/58_CT-9904, Crosshair.png"
 			}
 		},
 		{
@@ -15,9 +15,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{6}{R}{G}",
 			"type": "Legendary Creature — Human Soldier  ",
-			"collector_number": "168",
+			"collector_number": "164",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/168_CT-9903, Wrecker.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/164_CT-9903, Wrecker.png"
 			}
 		},
 		{
@@ -25,9 +25,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Legendary Creature — Human Soldier  ",
-			"collector_number": "30",
+			"collector_number": "28",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/30_CT-9902, Tech.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/28_CT-9902, Tech.png"
 			}
 		},
 		{
@@ -35,9 +35,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{U}{B}",
 			"type": "Legendary Creature — Human Soldier  ",
-			"collector_number": "167",
+			"collector_number": "163",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/167_CT-9901, Hunter.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/163_CT-9901, Hunter.png"
 			}
 		},
 		{
@@ -45,9 +45,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W/U}",
 			"type": "Legendary Creature — Human ",
-			"collector_number": "250",
+			"collector_number": "246",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/250_Omega, of The Bad Batch.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/246_Omega, of The Bad Batch.png"
 			}
 		},
 		{
@@ -55,19 +55,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{B}",
 			"type": "Legendary Creature — Human Soldier  ",
-			"collector_number": "166",
+			"collector_number": "162",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/166_CT-1409, Echo.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/162_CT-1409, Echo.png"
 			}
 		},
 		{
 			"name": "General Pong Krell",
-			"rarity": "rare",
+			"rarity": "uncommon",
 			"mana_cost": "{3}{W}{B}",
 			"type": "Legendary Creature — Warrior ",
-			"collector_number": "187",
+			"collector_number": "182",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/187_General Pong Krell.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/182_General Pong Krell.png"
 			}
 		},
 		{
@@ -75,9 +75,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{5}{W}{U}",
 			"type": "Legendary Creature — Human Warrior ",
-			"collector_number": "214",
+			"collector_number": "210",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/214_Obi-Wan Kenobi, Soresu Master.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/210_Obi-Wan Kenobi, Soresu Master.png"
 			}
 		},
 		{
@@ -85,9 +85,9 @@
 			"rarity": "rare",
 			"mana_cost": "{8}{G}{G}{G}",
 			"type": "Creature — Beast ",
-			"collector_number": "137",
+			"collector_number": "133",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/137_The Zillo Beast.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/133_The Zillo Beast.png"
 			}
 		},
 		{
@@ -95,9 +95,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Swamp ",
-			"collector_number": "306",
+			"collector_number": "300",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/306_Swamp.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/300_Swamp.png"
 			}
 		},
 		{
@@ -105,9 +105,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Creature — Human Soldier  ",
-			"collector_number": "144",
+			"collector_number": "140",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/144_ARC Troopers.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/140_ARC Troopers.png"
 			}
 		},
 		{
@@ -115,76 +115,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Plains ",
-			"collector_number": "304",
+			"collector_number": "298",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/304_Plains.png"
-			}
-		},
-		{
-			"name": "Brothers in Arms",
-			"rarity": "uncommon",
-			"mana_cost": "{4}{W}",
-			"type": "Instant",
-			"collector_number": "4",
-			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/4_Brothers in Arms.png"
-			}
-		},
-		{
-			"name": "Mountain",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Basic Land — Mountain ",
-			"collector_number": "307",
-			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/307_Mountain.png"
-			}
-		},
-		{
-			"name": "Island",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Basic Land — Island ",
-			"collector_number": "305",
-			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/305_Island.png"
-			}
-		},
-		{
-			"name": "Forest",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Basic Land — Forest ",
-			"collector_number": "308",
-			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/308_Forest.png"
-			}
-		},
-		{
-			"name": "Anakin Skywalker, Fallen",
-			"rarity": "mythic",
-			"mana_cost": "{2}{R}{W}",
-			"type": "Legendary Creature — Human Warrior ",
-			"collector_number": "142",
-			"back": {
-				"name": "",
-				"type": "",
-				"image_uris": {
-					"en": "https://Itaho.github.io/sets/SW1-files/img/142_Anakin Skywalker, Fallen_back.png"
-				}
-			},
-			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/142_Anakin Skywalker, Fallen_front.png"
-			}
-		},
-		{
-			"name": "Clone Protocol 66",
-			"rarity": "common",
-			"mana_cost": "{B}",
-			"type": "Sorcery",
-			"collector_number": "57",
-			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/57_Clone Protocol 66.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/298_Plains.png"
 			}
 		},
 		{
@@ -198,23 +131,90 @@
 			}
 		},
 		{
-			"name": "Clone-Trooper",
+			"name": "Mountain",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Creature — Soldier ",
-			"collector_number": "9",
+			"type": "Basic Land — Mountain ",
+			"collector_number": "301",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/9_Clone-Trooper.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/301_Mountain.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island ",
+			"collector_number": "299",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/SW1-files/img/299_Island.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest ",
+			"collector_number": "302",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/SW1-files/img/302_Forest.png"
+			}
+		},
+		{
+			"name": "Anakin Skywalker, Fallen",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Human Warrior ",
+			"collector_number": "138",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Itaho.github.io/sets/SW1-files/img/138_Anakin Skywalker, Fallen_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/SW1-files/img/138_Anakin Skywalker, Fallen_front.png"
+			}
+		},
+		{
+			"name": "Clone Protocol 66",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/SW1-files/img/55_Clone Protocol 66.png"
+			}
+		},
+		{
+			"name": "Brothers in Arms",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}",
+			"type": "Instant",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/SW1-files/img/4_Brothers in Arms.png"
+			}
+		},
+		{
+			"name": "Clone-Trooper",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Token Creature — Soldier ",
+			"collector_number": "303",
+			"image_uris": {
+				"en": "https://Itaho.github.io/sets/SW1-files/img/303_Clone-Trooper.png"
 			}
 		},
 		{
 			"name": "B1-Battledroid",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Artifact Creature — Robot ",
-			"collector_number": "255",
+			"collector_number": "307",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/255_B1-Battledroid.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/307_B1-Battledroid.png"
 			}
 		},
 		{
@@ -249,9 +249,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Island Swamp ",
-			"collector_number": "276",
+			"collector_number": "270",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/276_Christophsis.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/270_Christophsis.png"
 			}
 		},
 		{
@@ -259,9 +259,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Plains Island ",
-			"collector_number": "297",
+			"collector_number": "291",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/297_Scarif.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/291_Scarif.png"
 			}
 		},
 		{
@@ -269,9 +269,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Swamp Mountain ",
-			"collector_number": "290",
+			"collector_number": "284",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/290_Mustafar.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/284_Mustafar.png"
 			}
 		},
 		{
@@ -279,9 +279,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Forest Plains ",
-			"collector_number": "285",
+			"collector_number": "279",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/285_Kashyyyk.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/279_Kashyyyk.png"
 			}
 		},
 		{
@@ -289,9 +289,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land",
-			"collector_number": "303",
+			"collector_number": "297",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/303_Wastes.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/297_Wastes.png"
 			}
 		},
 		{
@@ -299,9 +299,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Swamp Forest ",
-			"collector_number": "291",
+			"collector_number": "285",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/291_Nal Hutta.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/285_Nal Hutta.png"
 			}
 		},
 		{
@@ -309,9 +309,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Mountain Plains ",
-			"collector_number": "279",
+			"collector_number": "273",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/279_Crait.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/273_Crait.png"
 			}
 		},
 		{
@@ -319,9 +319,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Forest Island ",
-			"collector_number": "280",
+			"collector_number": "274",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/280_Dagobah.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/274_Dagobah.png"
 			}
 		},
 		{
@@ -329,9 +329,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Plains Swamp ",
-			"collector_number": "275",
+			"collector_number": "269",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/275_Bureau of Standards.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/269_Bureau of Standards.png"
 			}
 		},
 		{
@@ -339,9 +339,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Mountain Forest ",
-			"collector_number": "293",
+			"collector_number": "287",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/293_Onderon.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/287_Onderon.png"
 			}
 		},
 		{
@@ -349,19 +349,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Island Mountain ",
-			"collector_number": "296",
+			"collector_number": "290",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/296_Raxus Prime.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/290_Raxus Prime.png"
 			}
 		},
 		{
 			"name": "R2-D2, Full of Solutions",
-			"rarity": "rare",
+			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Legendary Artifact Creature — Robot ",
-			"collector_number": "49",
+			"collector_number": "47",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/49_R2-D2, Full of Solutions.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/47_R2-D2, Full of Solutions.png"
 			}
 		},
 		{
@@ -369,9 +369,9 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{W}{W}{U}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "242",
+			"collector_number": "238",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/242_Venator-class Star Destroyer.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/238_Venator-class Star Destroyer.png"
 			}
 		},
 		{
@@ -379,9 +379,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Legendary Artifact Creature — Robot ",
-			"collector_number": "86",
+			"collector_number": "84",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/86_BB-8.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/84_BB-8.png"
 			}
 		},
 		{
@@ -389,9 +389,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W/U}",
 			"type": "Legendary Creature — Human ",
-			"collector_number": "251",
+			"collector_number": "247",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/251_Omega, of The Bad Batch.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/247_Omega, of The Bad Batch.png"
 			}
 		},
 		{
@@ -399,19 +399,19 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact Creature — Robot ",
-			"collector_number": "256",
+			"collector_number": "251",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/256_B1-Battledroid Squadron.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/251_B1-Battledroid Squadron.png"
 			}
 		},
 		{
 			"name": "Clone-Trooper Squadron",
-			"rarity": "uncommon",
+			"rarity": "common",
 			"mana_cost": "{3}{W}",
 			"type": "Creature — Human Soldier  ",
-			"collector_number": "10",
+			"collector_number": "9",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/10_Clone-Trooper Squadron.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/9_Clone-Trooper Squadron.png"
 			}
 		},
 		{
@@ -419,9 +419,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Artifact Creature — Robot ",
-			"collector_number": "85",
+			"collector_number": "83",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/85_B2-Battledroid Squadron.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/83_B2-Battledroid Squadron.png"
 			}
 		},
 		{
@@ -439,9 +439,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{B}",
 			"type": "Artifact Creature — Robot ",
-			"collector_number": "157",
+			"collector_number": "153",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/157_BX-Commando Droid.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/153_BX-Commando Droid.png"
 			}
 		},
 		{
@@ -449,9 +449,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Legendary Creature — Warrior ",
-			"collector_number": "139",
+			"collector_number": "135",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/139_Ahsoka Tano, Padawan Learner.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/135_Ahsoka Tano, Padawan Learner.png"
 			}
 		},
 		{
@@ -459,9 +459,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{G}",
 			"type": "Legendary Creature — Noble Advisor ",
-			"collector_number": "133",
+			"collector_number": "130",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/133_Riyo Chuchi, Republic Senator.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/130_Riyo Chuchi, Republic Senator.png"
 			}
 		},
 		{
@@ -469,9 +469,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}",
 			"type": "Legendary Creature — Beast ",
-			"collector_number": "117",
+			"collector_number": "115",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/117_Batcher, Lurca Hound.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/115_Batcher, Lurca Hound.png"
 			}
 		},
 		{
@@ -479,49 +479,49 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Legendary Creature — Human Pilot ",
-			"collector_number": "143",
+			"collector_number": "139",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/143_Anakin Skywalker, Starpilot.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/139_Anakin Skywalker, Starpilot.png"
 			}
 		},
 		{
 			"name": "Stormtrooper",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Creature — Soldier  ",
-			"collector_number": "20",
+			"collector_number": "304",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/20_Stormtrooper.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/304_Stormtrooper.png"
 			}
 		},
 		{
 			"name": "Low Altitude Assault Transport",
-			"rarity": "uncommon",
+			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "101",
+			"collector_number": "99",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/101_Low Altitude Assault Transport.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/99_Low Altitude Assault Transport.png"
 			}
 		},
 		{
 			"name": "BLT Y-Wing Starfighter",
-			"rarity": "uncommon",
+			"rarity": "common",
 			"mana_cost": "{4}{G}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "118",
+			"collector_number": "116",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/118_BLT Y-Wing Starfighter.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/116_BLT Y-Wing Starfighter.png"
 			}
 		},
 		{
 			"name": "Droideka",
-			"rarity": "uncommon",
+			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Artifact Creature — Robot ",
-			"collector_number": "33",
+			"collector_number": "31",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/33_Droideka.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/31_Droideka.png"
 			}
 		},
 		{
@@ -529,16 +529,16 @@
 			"rarity": "mythic",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "281",
+			"collector_number": "275",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Itaho.github.io/sets/SW1-files/img/281_Day's Mortis_back.png"
+					"en": "https://Itaho.github.io/sets/SW1-files/img/275_Day's Mortis_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/281_Day's Mortis_front.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/275_Day's Mortis_front.png"
 			}
 		},
 		{
@@ -546,9 +546,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{B}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "190",
+			"collector_number": "186",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/190_HMP Droid Gunship.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/186_HMP Droid Gunship.png"
 			}
 		},
 		{
@@ -556,19 +556,19 @@
 			"rarity": "common",
 			"mana_cost": "{B}{R}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "193",
+			"collector_number": "189",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/193_Hyena Bomber.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/189_Hyena Bomber.png"
 			}
 		},
 		{
-			"name": "General Grievous. Lightsaber Collector",
+			"name": "Grievous. Lightsaber Collector",
 			"rarity": "mythic",
 			"mana_cost": "{3}{R}{W}{B}",
 			"type": "Legendary Artifact Creature — Warrior ",
-			"collector_number": "185",
+			"collector_number": "184",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/185_General Grievous. Lightsaber Collector.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/184_Grievous. Lightsaber Collector.png"
 			}
 		},
 		{
@@ -576,19 +576,19 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "67",
+			"collector_number": "65",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/67_I Have You Now.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/65_I Have You Now.png"
 			}
 		},
 		{
 			"name": "Rex, 501st Captain",
-			"rarity": "rare",
+			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{W}",
 			"type": "Legendary Creature — Human Soldier  ",
-			"collector_number": "228",
+			"collector_number": "224",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/228_Rex, 501st Captain.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/224_Rex, 501st Captain.png"
 			}
 		},
 		{
@@ -596,9 +596,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Legendary Creature — Human Soldier  ",
-			"collector_number": "135",
+			"collector_number": "131",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/135_Vaughn, 332nd Captain.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/131_Vaughn, 332nd Captain.png"
 			}
 		},
 		{
@@ -616,9 +616,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "63",
+			"collector_number": "61",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/63_Droid Tri-Fighter.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/61_Droid Tri-Fighter.png"
 			}
 		},
 		{
@@ -626,9 +626,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Legendary Creature — Human Soldier  ",
-			"collector_number": "147",
+			"collector_number": "143",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/147_ARC-5555, Fives.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/143_ARC-5555, Fives.png"
 			}
 		},
 		{
@@ -636,9 +636,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "112",
+			"collector_number": "110",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/112_Vulture-class Starfighter.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/110_Vulture-class Starfighter.png"
 			}
 		},
 		{
@@ -646,9 +646,9 @@
 			"rarity": "rare",
 			"mana_cost": "{6}{U}{B}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "205",
+			"collector_number": "201",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/205_Lucrehulk-Class Battleship.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/201_Lucrehulk-Class Battleship.png"
 			}
 		},
 		{
@@ -656,9 +656,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "71",
+			"collector_number": "69",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/71_Munificent-Class Star Frigate.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/69_Munificent-Class Star Frigate.png"
 			}
 		},
 		{
@@ -666,19 +666,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{U}{B}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "221",
+			"collector_number": "217",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/221_Providence-Class Dreadnought.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/217_Providence-Class Dreadnought.png"
 			}
 		},
 		{
 			"name": "Trident-Class Assault Ship",
 			"rarity": "common",
-			"mana_cost": "{2}{U}",
+			"mana_cost": "{3}{U}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "53",
+			"collector_number": "51",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/53_Trident-Class Assault Ship.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/51_Trident-Class Assault Ship.png"
 			}
 		},
 		{
@@ -686,9 +686,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "92",
+			"collector_number": "90",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/92_Ginivex-Class Fanblade Starfighter.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/90_Ginivex-Class Fanblade Starfighter.png"
 			}
 		},
 		{
@@ -696,9 +696,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "257",
+			"collector_number": "252",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/257_Beak-Wing Fighter.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/252_Beak-Wing Fighter.png"
 			}
 		},
 		{
@@ -706,9 +706,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "15",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/15_Infantry of the 212th.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/14_Infantry of the 212th.png"
 			}
 		},
 		{
@@ -716,9 +716,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "41",
+			"collector_number": "39",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/41_Infantry of the 501st.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/39_Infantry of the 501st.png"
 			}
 		},
 		{
@@ -726,9 +726,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "126",
+			"collector_number": "124",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/126_Infantry of the 104th.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/124_Infantry of the 104th.png"
 			}
 		},
 		{
@@ -736,9 +736,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "196",
+			"collector_number": "192",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/196_Infantry of the 332nd.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/192_Infantry of the 332nd.png"
 			}
 		},
 		{
@@ -746,9 +746,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "70",
+			"collector_number": "68",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/70_Infantry of the 187th.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/68_Infantry of the 187th.png"
 			}
 		},
 		{
@@ -756,9 +756,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "94",
+			"collector_number": "92",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/94_Infantry of the 327th.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/92_Infantry of the 327th.png"
 			}
 		},
 		{
@@ -766,16 +766,16 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{U}{B}{R}",
 			"type": "Legendary Creature — Warrior ",
-			"collector_number": "169",
+			"collector_number": "165",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Itaho.github.io/sets/SW1-files/img/169_Darth Maul, Hate Fueled_back.png"
+					"en": "https://Itaho.github.io/sets/SW1-files/img/165_Darth Maul, Hate Fueled_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/169_Darth Maul, Hate Fueled_front.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/165_Darth Maul, Hate Fueled_front.png"
 			}
 		},
 		{
@@ -783,9 +783,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Instant",
-			"collector_number": "61",
+			"collector_number": "59",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/61_Dark Ritual.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/59_Dark Ritual.png"
 			}
 		},
 		{
@@ -793,9 +793,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Artifact Land — Vehicle ",
-			"collector_number": "282",
+			"collector_number": "276",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/282_Dual Hemisphere-Omni Supply Ship.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/276_Dual Hemisphere-Omni Supply Ship.png"
 			}
 		},
 		{
@@ -803,9 +803,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Artifact Land — Vehicle ",
-			"collector_number": "294",
+			"collector_number": "288",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/294_Pelta-Class Frigate.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/288_Pelta-Class Frigate.png"
 			}
 		},
 		{
@@ -813,9 +813,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Artifact Land — Vehicle ",
-			"collector_number": "302",
+			"collector_number": "296",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/302_Zeta-Class Imperial Shuttle.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/296_Zeta-Class Imperial Shuttle.png"
 			}
 		},
 		{
@@ -823,9 +823,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Artifact Land — Vehicle ",
-			"collector_number": "292",
+			"collector_number": "286",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/292_NU-Class Attack Shuttle.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/286_NU-Class Attack Shuttle.png"
 			}
 		},
 		{
@@ -833,9 +833,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Artifact Land — Vehicle ",
-			"collector_number": "298",
+			"collector_number": "292",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/298_T-6 Shuttle.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/292_T-6 Shuttle.png"
 			}
 		},
 		{
@@ -843,9 +843,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Artifact Land — Vehicle ",
-			"collector_number": "287",
+			"collector_number": "281",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/287_Maxillipede Shuttle.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/281_Maxillipede Shuttle.png"
 			}
 		},
 		{
@@ -853,9 +853,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}{G}",
 			"type": "Legendary Creature — Warrior ",
-			"collector_number": "231",
+			"collector_number": "227",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/231_Savage Opress, The Monster.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/227_Savage Opress, The Monster.png"
 			}
 		},
 		{
@@ -863,9 +863,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{B}{R}",
 			"type": "Legendary Creature — Human Warrior ",
-			"collector_number": "206",
+			"collector_number": "202",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/206_Mace Windu, Party Crasher.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/202_Mace Windu, Party Crasher.png"
 			}
 		},
 		{
@@ -873,9 +873,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Pilot ",
-			"collector_number": "29",
+			"collector_number": "27",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/29_Clone Pilot.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/27_Clone Pilot.png"
 			}
 		},
 		{
@@ -883,9 +883,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Artifact Creature — Robot Pilot ",
-			"collector_number": "55",
+			"collector_number": "53",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/55_B1-Battledroid Pilot.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/53_B1-Battledroid Pilot.png"
 			}
 		},
 		{
@@ -893,9 +893,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Artifact Creature — Robot ",
-			"collector_number": "54",
+			"collector_number": "52",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/54_B1-Battledroid Commander.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/52_B1-Battledroid Commander.png"
 			}
 		},
 		{
@@ -903,9 +903,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}{G}",
 			"type": "Artifact Creautre — Robot ",
-			"collector_number": "233",
+			"collector_number": "229",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/233_Super Tactical Droid.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/229_Super Tactical Droid.png"
 			}
 		},
 		{
@@ -913,9 +913,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{W}{B}",
 			"type": "Legendary Artifact Creature — Robot ",
-			"collector_number": "186",
+			"collector_number": "181",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/186_General Kalani.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/181_General Kalani.png"
 			}
 		},
 		{
@@ -923,9 +923,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{G}",
 			"type": "Legendary Artifact Creature — Spider ",
-			"collector_number": "240",
+			"collector_number": "236",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/240_Trench, Harch Admiral.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/236_Trench, Harch Admiral.png"
 			}
 		},
 		{
@@ -933,9 +933,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Artifact Land — Vehicle ",
-			"collector_number": "286",
+			"collector_number": "280",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/286_Lambda-Class Shuttle.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/280_Lambda-Class Shuttle.png"
 			}
 		},
 		{
@@ -943,9 +943,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Artifact Land — Vehicle ",
-			"collector_number": "300",
+			"collector_number": "294",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/300_Upsilon-Class Command Shuttle.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/294_Upsilon-Class Command Shuttle.png"
 			}
 		},
 		{
@@ -953,9 +953,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Artifact Land — Vehicle ",
-			"collector_number": "295",
+			"collector_number": "289",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/295_Phantom-Class Shuttle.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/289_Phantom-Class Shuttle.png"
 			}
 		},
 		{
@@ -963,9 +963,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Artifact Land — Vehicle ",
-			"collector_number": "278",
+			"collector_number": "272",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/278_CR90 Relief Runner.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/272_CR90 Relief Runner.png"
 			}
 		},
 		{
@@ -973,9 +973,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "129",
+			"collector_number": "127",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/129_Multi-Troop Transport.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/127_Multi-Troop Transport.png"
 			}
 		},
 		{
@@ -983,9 +983,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment ",
-			"collector_number": "272",
+			"collector_number": "266",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/272_Single Trooper Ariel Platform.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/266_Single Trooper Ariel Platform.png"
 			}
 		},
 		{
@@ -993,9 +993,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "111",
+			"collector_number": "109",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/111_V-Wing Starfighter.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/109_V-Wing Starfighter.png"
 			}
 		},
 		{
@@ -1003,9 +1003,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "32",
+			"collector_number": "30",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/32_Delta-7B Jedi Starfighter.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/30_Delta-7B Jedi Starfighter.png"
 			}
 		},
 		{
@@ -1013,9 +1013,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "31",
+			"collector_number": "29",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/31_Delta-7A Jedi Starfighter.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/29_Delta-7A Jedi Starfighter.png"
 			}
 		},
 		{
@@ -1023,9 +1023,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "23",
+			"collector_number": "21",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/23_V-19 Torrent Starfighter.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/21_V-19 Torrent Starfighter.png"
 			}
 		},
 		{
@@ -1033,9 +1033,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "24",
+			"collector_number": "22",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/24_Z-95 Starfighter.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/22_Z-95 Starfighter.png"
 			}
 		},
 		{
@@ -1043,9 +1043,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}{W}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "138",
+			"collector_number": "134",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/138_Acclamator-Class Assault Ship.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/134_Acclamator-Class Assault Ship.png"
 			}
 		},
 		{
@@ -1053,9 +1053,9 @@
 			"rarity": "rare",
 			"mana_cost": "{W}{U}",
 			"type": "Legendary Creature — Human Soldier  ",
-			"collector_number": "146",
+			"collector_number": "142",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/146_ARC-0408, Echo.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/142_ARC-0408, Echo.png"
 			}
 		},
 		{
@@ -1063,9 +1063,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{W}",
 			"type": "Legendary Creature — Human Soldier  ",
-			"collector_number": "163",
+			"collector_number": "159",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/163_Cody, 212th Captain.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/159_Cody, 212th Captain.png"
 			}
 		},
 		{
@@ -1073,9 +1073,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{B}",
 			"type": "Legendary Creature — Human Soldier  ",
-			"collector_number": "237",
+			"collector_number": "232",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/237_Thorn, Coruscant Guard Captain.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/232_Thorn, Coruscant Guard Captain.png"
 			}
 		},
 		{
@@ -1083,19 +1083,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{B}",
 			"type": "Legendary Creature — Human Soldier  ",
-			"collector_number": "236",
+			"collector_number": "233",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/236_Thorn, Coruscant Guard Captain.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/233_Thorn, Coruscant Guard Captain.png"
 			}
 		},
 		{
 			"name": "Wolffe, 104th Commander",
-			"rarity": "rare",
+			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary Creature — Human Soldier ",
-			"collector_number": "113",
+			"collector_number": "111",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/113_Wolffe, 104th Commander.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/111_Wolffe, 104th Commander.png"
 			}
 		},
 		{
@@ -1103,19 +1103,19 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Legendary Creature — Human Soldier  ",
-			"collector_number": "183",
+			"collector_number": "179",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/183_Fox, Coruscant Guard Commander.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/179_Fox, Coruscant Guard Commander.png"
 			}
 		},
 		{
 			"name": "All Terrain-Tactical Enforcer",
-			"rarity": "uncommon",
+			"rarity": "common",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "83",
+			"collector_number": "81",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/83_All Terrain-Tactical Enforcer.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/81_All Terrain-Tactical Enforcer.png"
 			}
 		},
 		{
@@ -1123,9 +1123,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
 			"type": "Artifact Creature — Equipment Robot ",
-			"collector_number": "74",
+			"collector_number": "72",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/74_Pistoeka Sabotage Droid.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/72_Pistoeka Sabotage Droid.png"
 			}
 		},
 		{
@@ -1133,9 +1133,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{U}{B}{R}",
 			"type": "Legendary Creature — Human ",
-			"collector_number": "217",
+			"collector_number": "213",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/217_Palpatine, Unlimited Power.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/213_Palpatine, Unlimited Power.png"
 			}
 		},
 		{
@@ -1143,9 +1143,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{R}",
 			"type": "Legendary Creature — Assassin ",
-			"collector_number": "149",
+			"collector_number": "145",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/149_Asajj Ventress, Sith Assassin.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/145_Asajj Ventress, Sith Assassin.png"
 			}
 		},
 		{
@@ -1153,9 +1153,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{G}{G}{U}{U}",
 			"type": "Legendary Creature — Human Noble ",
-			"collector_number": "215",
+			"collector_number": "211",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/215_Padmé Amidala, Naboo Senator.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/211_Padmé Amidala, Naboo Senator.png"
 			}
 		},
 		{
@@ -1163,9 +1163,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{W}{B}",
 			"type": "Legendary Creature — Human Noble ",
-			"collector_number": "216",
+			"collector_number": "212",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/216_Palpatine, Supreme Chancelor.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/212_Palpatine, Supreme Chancelor.png"
 			}
 		},
 		{
@@ -1173,19 +1173,19 @@
 			"rarity": "rare",
 			"mana_cost": "{G}{W}",
 			"type": "Legendary Creature — Human Noble ",
-			"collector_number": "210",
+			"collector_number": "206",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/210_Mina Bonteri, Seperatist Senator.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/206_Mina Bonteri, Seperatist Senator.png"
 			}
 		},
 		{
 			"name": "Republic Senate Guard",
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Soldier ",
-			"collector_number": "50",
+			"collector_number": "48",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/50_Republic Senate Guard.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/48_Republic Senate Guard.png"
 			}
 		},
 		{
@@ -1193,9 +1193,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "25",
+			"collector_number": "23",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/25_All Terrain Reconnaissance Transport.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/23_All Terrain Reconnaissance Transport.png"
 			}
 		},
 		{
@@ -1203,9 +1203,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "115",
+			"collector_number": "113",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/115_All Terrain Attack Pod.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/113_All Terrain Attack Pod.png"
 			}
 		},
 		{
@@ -1213,9 +1213,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Artifact Creature — Robot Crab ",
-			"collector_number": "267",
+			"collector_number": "261",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/267_LM-432 Crab Droid.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/261_LM-432 Crab Droid.png"
 			}
 		},
 		{
@@ -1223,9 +1223,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}{B}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "180",
+			"collector_number": "176",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/180_Force Choak.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/176_Force Choak.png"
 			}
 		},
 		{
@@ -1233,9 +1233,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Instant",
-			"collector_number": "181",
+			"collector_number": "177",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/181_Force Lightning.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/177_Force Lightning.png"
 			}
 		},
 		{
@@ -1243,9 +1243,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Legendary Creature — Human Noble ",
-			"collector_number": "116",
+			"collector_number": "114",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/116_Bail Organa, Alderaan Delegate.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/114_Bail Organa, Alderaan Delegate.png"
 			}
 		},
 		{
@@ -1253,19 +1253,19 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{B}",
 			"type": "Sorcery",
-			"collector_number": "222",
+			"collector_number": "218",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/222_Pursuit of Peace.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/218_Pursuit of Peace.png"
 			}
 		},
 		{
 			"name": "Finanical Reform Bill",
-			"rarity": "rare",
+			"rarity": "uncommon",
 			"mana_cost": "{4}{B}{R}",
 			"type": "Sorcery",
-			"collector_number": "177",
+			"collector_number": "173",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/177_Finanical Reform Bill.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/173_Finanical Reform Bill.png"
 			}
 		},
 		{
@@ -1273,9 +1273,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{W}",
 			"type": "Sorcery",
-			"collector_number": "174",
+			"collector_number": "170",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/174_Emergency Powers Act.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/170_Emergency Powers Act.png"
 			}
 		},
 		{
@@ -1283,9 +1283,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Sorcery",
-			"collector_number": "226",
+			"collector_number": "222",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/226_Reduced Military Spending Bill.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/222_Reduced Military Spending Bill.png"
 			}
 		},
 		{
@@ -1293,9 +1293,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{G}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "194",
+			"collector_number": "190",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/194_IG-227 Hailfire-Class Droid Tank.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/190_IG-227 Hailfire-Class Droid Tank.png"
 			}
 		},
 		{
@@ -1303,9 +1303,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{U}",
 			"type": "Legendary Creature — Scientist ",
-			"collector_number": "212",
+			"collector_number": "208",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/212_Nala Se, Clone Engineer.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/208_Nala Se, Clone Engineer.png"
 			}
 		},
 		{
@@ -1313,19 +1313,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Artifact Creature — Robot ",
-			"collector_number": "234",
+			"collector_number": "230",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/234_T-Series Tactical Droid.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/230_T-Series Tactical Droid.png"
 			}
 		},
 		{
 			"name": "Lightsaber Throw",
-			"rarity": "common",
+			"rarity": "rare",
 			"mana_cost": "{R}{W}",
 			"type": "Instant",
-			"collector_number": "204",
+			"collector_number": "200",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/204_Lightsaber Throw.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/200_Lightsaber Throw.png"
 			}
 		},
 		{
@@ -1333,9 +1333,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}{R}",
 			"type": "Instant",
-			"collector_number": "182",
+			"collector_number": "178",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/182_Force Stasis.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/178_Force Stasis.png"
 			}
 		},
 		{
@@ -1343,9 +1343,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Artifact Creature — Robot Spider ",
-			"collector_number": "173",
+			"collector_number": "169",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/173_DSD1-Dwarf Spider Droid.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/169_DSD1-Dwarf Spider Droid.png"
 			}
 		},
 		{
@@ -1353,9 +1353,9 @@
 			"rarity": "rare",
 			"mana_cost": "{R}{W}{B}",
 			"type": "Sorcery",
-			"collector_number": "178",
+			"collector_number": "174",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/178_A Fine Addition to My Collection.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/174_A Fine Addition to My Collection.png"
 			}
 		},
 		{
@@ -1363,9 +1363,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{B}{R}",
 			"type": "Legendary Creature — Warrior ",
-			"collector_number": "207",
+			"collector_number": "203",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/207_Maul, Formerly Darth.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/203_Maul, Formerly Darth.png"
 			}
 		},
 		{
@@ -1373,9 +1373,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{W}",
 			"type": "Legendary Creature — Warrior ",
-			"collector_number": "184",
+			"collector_number": "180",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/184_Gar Saxon, Super Commando.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/180_Gar Saxon, Super Commando.png"
 			}
 		},
 		{
@@ -1383,9 +1383,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{R}{W}",
 			"type": "Legendary Creature — Human Warrior ",
-			"collector_number": "153",
+			"collector_number": "149",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/153_Bo Katan Kryze, Terrorist.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/149_Bo Katan Kryze, Terrorist.png"
 			}
 		},
 		{
@@ -1393,9 +1393,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}",
 			"type": "Legendary Creature — Human Soldier ",
-			"collector_number": "26",
+			"collector_number": "24",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/26_ARC-5597, Jesse.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/24_ARC-5597, Jesse.png"
 			}
 		},
 		{
@@ -1403,9 +1403,9 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{R}{G}",
 			"type": "Legendary Creature — Human Soldier ",
-			"collector_number": "145",
+			"collector_number": "141",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/145_ARC-77, Fordo.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/141_ARC-77, Fordo.png"
 			}
 		},
 		{
@@ -1413,9 +1413,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}{G}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "148",
+			"collector_number": "144",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/148_Armored Assault Tank.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/144_Armored Assault Tank.png"
 			}
 		},
 		{
@@ -1423,9 +1423,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{U}{U}{B/R}{B/R}",
 			"type": "Legendary Creature — Avatar ",
-			"collector_number": "252",
+			"collector_number": "248",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/252_The Son, Bogan.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/248_The Son, Bogan.png"
 			}
 		},
 		{
@@ -1433,9 +1433,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{G/W}{G/W}{U}{U}",
 			"type": "Legendary Creature — Avatar ",
-			"collector_number": "249",
+			"collector_number": "245",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/249_The Daughter, Ashla.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/245_The Daughter, Ashla.png"
 			}
 		},
 		{
@@ -1443,9 +1443,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{W}{U}{U}{B}",
 			"type": "Legendary Creature — Avatar ",
-			"collector_number": "176",
+			"collector_number": "172",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/176_The Father, Bendu.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/172_The Father, Bendu.png"
 			}
 		},
 		{
@@ -1453,9 +1453,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{W}",
 			"type": "Legendary Creature — Human Noble ",
-			"collector_number": "230",
+			"collector_number": "226",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/230_Satine Kryze, Neutrality Advocate.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/226_Satine Kryze, Neutrality Advocate.png"
 			}
 		},
 		{
@@ -1463,19 +1463,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{G}{G}",
 			"type": "Artifact Creature — Robot ",
-			"collector_number": "130",
+			"collector_number": "128",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/130_Octuptarra Magna Tri-Droid.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/128_Octuptarra Magna Tri-Droid.png"
 			}
 		},
 		{
 			"name": "Trench, Naval Commander",
-			"rarity": "rare",
+			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Legendary Artifact Creature — Spdier ",
-			"collector_number": "241",
+			"collector_number": "237",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/241_Trench, Naval Commander.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/237_Trench, Naval Commander.png"
 			}
 		},
 		{
@@ -1483,9 +1483,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}{U}",
 			"type": "Sorcery",
-			"collector_number": "208",
+			"collector_number": "204",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/208_Mercenary Training.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/204_Mercenary Training.png"
 			}
 		},
 		{
@@ -1493,9 +1493,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}{B}{R}",
 			"type": "Instant",
-			"collector_number": "218",
+			"collector_number": "214",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/218_Palpatine's Force Lightning.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/214_Palpatine's Force Lightning.png"
 			}
 		},
 		{
@@ -1503,9 +1503,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{U}",
 			"type": "Instant",
-			"collector_number": "170",
+			"collector_number": "166",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/170_Deflect Attacks.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/166_Deflect Attacks.png"
 			}
 		},
 		{
@@ -1513,9 +1513,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "39",
+			"collector_number": "37",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/39_Force Push.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/37_Force Push.png"
 			}
 		},
 		{
@@ -1523,9 +1523,9 @@
 			"rarity": "rare",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "45",
+			"collector_number": "43",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/45_Kyber Crystal Bleeding.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/43_Kyber Crystal Bleeding.png"
 			}
 		},
 		{
@@ -1533,9 +1533,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "35",
+			"collector_number": "33",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/35_Force Leap.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/33_Force Leap.png"
 			}
 		},
 		{
@@ -1543,9 +1543,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G/U}",
 			"type": "Legendary Creature — Human Soldier ",
-			"collector_number": "248",
+			"collector_number": "244",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/248_CT-9415, Hardcase.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/244_CT-9415, Hardcase.png"
 			}
 		},
 		{
@@ -1553,9 +1553,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "124",
+			"collector_number": "122",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/124_Force Barrier.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/122_Force Barrier.png"
 			}
 		},
 		{
@@ -1563,9 +1563,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Artifact",
-			"collector_number": "91",
+			"collector_number": "89",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/91_Geonosian Droid Factory.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/89_Geonosian Droid Factory.png"
 			}
 		},
 		{
@@ -1573,9 +1573,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Human Soldier ",
-			"collector_number": "16",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/16_Phase I Clone-Trooper.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/15_Phase I Clone-Trooper.png"
 			}
 		},
 		{
@@ -1583,9 +1583,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Human Soldier ",
-			"collector_number": "17",
+			"collector_number": "16",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/17_Phase II Clone-Trooper.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/16_Phase II Clone-Trooper.png"
 			}
 		},
 		{
@@ -1593,9 +1593,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "123",
+			"collector_number": "121",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/123_Force Animal Bond.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/121_Force Animal Bond.png"
 			}
 		},
 		{
@@ -1603,9 +1603,9 @@
 			"rarity": "common",
 			"mana_cost": "{W}",
 			"type": "Instant",
-			"collector_number": "12",
+			"collector_number": "11",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/12_Force Blinding.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/11_Force Blinding.png"
 			}
 		},
 		{
@@ -1613,9 +1613,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Sorcery",
-			"collector_number": "36",
+			"collector_number": "34",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/36_Force Mind Trick.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/34_Force Mind Trick.png"
 			}
 		},
 		{
@@ -1623,9 +1623,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "264",
+			"collector_number": "258",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/264_Hologram.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/258_Hologram.png"
 			}
 		},
 		{
@@ -1633,19 +1633,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}",
 			"type": "Sorcery",
-			"collector_number": "103",
+			"collector_number": "101",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/103_Orbital Bombardment.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/101_Orbital Bombardment.png"
 			}
 		},
 		{
 			"name": "Revive Warriors",
-			"rarity": "rare",
+			"rarity": "common",
 			"mana_cost": "{X}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "75",
+			"collector_number": "73",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/75_Revive Warriors.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/73_Revive Warriors.png"
 			}
 		},
 		{
@@ -1653,9 +1653,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{B}{G}{U}",
 			"type": "Legendary Creature — Warlock ",
-			"collector_number": "211",
+			"collector_number": "207",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/211_Mother Talzin.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/207_Mother Talzin.png"
 			}
 		},
 		{
@@ -1663,9 +1663,9 @@
 			"rarity": "rare",
 			"mana_cost": "{U}{B}{R}",
 			"type": "Legendary Creature — Human Noble ",
-			"collector_number": "172",
+			"collector_number": "168",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/172_Dooku, Count of Serenno.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/168_Dooku, Count of Serenno.png"
 			}
 		},
 		{
@@ -1673,9 +1673,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "37",
+			"collector_number": "35",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/37_Force Precognition.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/35_Force Precognition.png"
 			}
 		},
 		{
@@ -1683,9 +1683,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}",
 			"type": "Artifact",
-			"collector_number": "263",
+			"collector_number": "257",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/263_Green Kyber Crystal.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/257_Green Kyber Crystal.png"
 			}
 		},
 		{
@@ -1693,9 +1693,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}",
 			"type": "Artifact",
-			"collector_number": "260",
+			"collector_number": "255",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/260_Blue Kyber Crystal.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/255_Blue Kyber Crystal.png"
 			}
 		},
 		{
@@ -1703,9 +1703,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}",
 			"type": "Artifact",
-			"collector_number": "274",
+			"collector_number": "268",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/274_White Kyber Crystal.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/268_White Kyber Crystal.png"
 			}
 		},
 		{
@@ -1713,9 +1713,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}",
 			"type": "Artifact",
-			"collector_number": "259",
+			"collector_number": "254",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/259_Black Kyber Crystal.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/254_Black Kyber Crystal.png"
 			}
 		},
 		{
@@ -1723,9 +1723,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}",
 			"type": "Artifact",
-			"collector_number": "269",
+			"collector_number": "263",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/269_Red Kyber Crystal.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/263_Red Kyber Crystal.png"
 			}
 		},
 		{
@@ -1743,9 +1743,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{U}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "27",
+			"collector_number": "25",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/27_Arquitens-Class Light Cruiser.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/25_Arquitens-Class Light Cruiser.png"
 			}
 		},
 		{
@@ -1753,9 +1753,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}{B}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "225",
+			"collector_number": "221",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/225_Recusant-Class Light Destroyer.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/221_Recusant-Class Light Destroyer.png"
 			}
 		},
 		{
@@ -1763,9 +1763,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
-			"collector_number": "18",
+			"collector_number": "17",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/18_Put on Trial.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/17_Put on Trial.png"
 			}
 		},
 		{
@@ -1773,29 +1773,29 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Legendary Creature — Human Warrior ",
-			"collector_number": "11",
+			"collector_number": "10",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/11_F, Jedi Fugitive.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/10_F, Jedi Fugitive.png"
 			}
 		},
 		{
 			"name": "The Ronin",
-			"rarity": "rare",
+			"rarity": "uncommon",
 			"mana_cost": "{R}{W}",
 			"type": "Legendary Creature — Human Warrior ",
-			"collector_number": "229",
+			"collector_number": "225",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/229_The Ronin.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/225_The Ronin.png"
 			}
 		},
 		{
 			"name": "Plo Koon's Force Judgement",
-			"rarity": "rare",
+			"rarity": "uncommon",
 			"mana_cost": "{U}{R}{W}",
 			"type": "Instant",
-			"collector_number": "219",
+			"collector_number": "215",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/219_Plo Koon's Force Judgement.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/215_Plo Koon's Force Judgement.png"
 			}
 		},
 		{
@@ -1803,19 +1803,19 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{B}",
 			"type": "Legendary Creature — Noble ",
-			"collector_number": "82",
+			"collector_number": "80",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/82_Wat Tambor, Pillager.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/80_Wat Tambor, Pillager.png"
 			}
 		},
 		{
 			"name": "Twi'lek Captive",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "",
-			"type": "Token Creature",
-			"collector_number": "134",
+			"type": "Token Creature — Citizen ",
+			"collector_number": "306",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/134_Twi'lek Captive.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/306_Twi'lek Captive.png"
 			}
 		},
 		{
@@ -1823,9 +1823,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Human Soldier ",
-			"collector_number": "22",
+			"collector_number": "20",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/22_TK Trooper.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/20_TK Trooper.png"
 			}
 		},
 		{
@@ -1833,9 +1833,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "266",
+			"collector_number": "260",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/266_Jedi Holocron.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/260_Jedi Holocron.png"
 			}
 		},
 		{
@@ -1843,9 +1843,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "273",
+			"collector_number": "267",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/273_Sith Holocron.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/267_Sith Holocron.png"
 			}
 		},
 		{
@@ -1853,9 +1853,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "277",
+			"collector_number": "271",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/277_Coruscant.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/271_Coruscant.png"
 			}
 		},
 		{
@@ -1863,9 +1863,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Legendary Snow Land",
-			"collector_number": "284",
+			"collector_number": "278",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/284_Hoth.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/278_Hoth.png"
 			}
 		},
 		{
@@ -1873,9 +1873,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Desert ",
-			"collector_number": "299",
+			"collector_number": "293",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/299_Tatooine.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/293_Tatooine.png"
 			}
 		},
 		{
@@ -1883,9 +1883,9 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{B}{B}{B}",
 			"type": "Legendary Creature — Horror ",
-			"collector_number": "64",
+			"collector_number": "62",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/64_Durge, The Unkillable.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/62_Durge, The Unkillable.png"
 			}
 		},
 		{
@@ -1893,9 +1893,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}",
 			"type": "Sorcery",
-			"collector_number": "77",
+			"collector_number": "75",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/77_Sith Alchemy.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/75_Sith Alchemy.png"
 			}
 		},
 		{
@@ -1903,19 +1903,19 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Legendary Creature — Insect Advisor ",
-			"collector_number": "220",
+			"collector_number": "216",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/220_Poggle the Lesser, Archduke.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/216_Poggle the Lesser, Archduke.png"
 			}
 		},
 		{
 			"name": "High Queen Karina the Great",
-			"rarity": "rare",
+			"rarity": "uncommon",
 			"mana_cost": "{5}{B}{G}",
 			"type": "Legendary Creature — Insect Noble ",
-			"collector_number": "189",
+			"collector_number": "185",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/189_High Queen Karina the Great.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/185_High Queen Karina the Great.png"
 			}
 		},
 		{
@@ -1923,59 +1923,59 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Legendary Creature — Warrior ",
-			"collector_number": "151",
+			"collector_number": "147",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/151_Barriss Offee, Fallen Jedi.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/147_Barriss Offee, Fallen Jedi.png"
 			}
 		},
 		{
 			"name": "Corrupt Senator",
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Noble ",
-			"collector_number": "58",
+			"collector_number": "56",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/58_Corrupt Senator.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/56_Corrupt Senator.png"
 			}
 		},
 		{
 			"name": "Compassionate Senator",
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Noble ",
-			"collector_number": "120",
+			"collector_number": "118",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/120_Compassionate Senator.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/118_Compassionate Senator.png"
 			}
 		},
 		{
 			"name": "Steadfast Senator",
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Noble ",
-			"collector_number": "19",
+			"collector_number": "18",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/19_Steadfast Senator.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/18_Steadfast Senator.png"
 			}
 		},
 		{
 			"name": "Greedy Senator",
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Noble ",
-			"collector_number": "40",
+			"collector_number": "38",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/40_Greedy Senator.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/38_Greedy Senator.png"
 			}
 		},
 		{
 			"name": "Frustrated Senator",
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Noble ",
-			"collector_number": "90",
+			"collector_number": "88",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/90_Frustrated Senator.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/88_Frustrated Senator.png"
 			}
 		},
 		{
@@ -1983,9 +1983,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Pirate ",
-			"collector_number": "110",
+			"collector_number": "108",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/110_Tusken Raiders.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/108_Tusken Raiders.png"
 			}
 		},
 		{
@@ -1993,9 +1993,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human  Pilot ",
-			"collector_number": "119",
+			"collector_number": "117",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/119_Clone Gunner.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/117_Clone Gunner.png"
 			}
 		},
 		{
@@ -2003,9 +2003,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Creature — Human Soldier ",
-			"collector_number": "28",
+			"collector_number": "26",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/28_Clone Heavy Gunner.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/26_Clone Heavy Gunner.png"
 			}
 		},
 		{
@@ -2013,9 +2013,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}",
 			"type": "Artifact — Vehcile ",
-			"collector_number": "268",
+			"collector_number": "262",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/268_NR-N99 Persuader-Class Droid.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/262_NR-N99 Persuader-Class Droid.png"
 			}
 		},
 		{
@@ -2023,9 +2023,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact Creature — Robot Pilot ",
-			"collector_number": "254",
+			"collector_number": "250",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/254_AAT Driver Battle Droid.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/250_AAT Driver Battle Droid.png"
 			}
 		},
 		{
@@ -2033,9 +2033,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1{U}/B}",
 			"type": "Artifact Creature — Robot ",
-			"collector_number": "253",
+			"collector_number": "249",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/253_Umbaran Millicreep Droid.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/249_Umbaran Millicreep Droid.png"
 			}
 		},
 		{
@@ -2043,19 +2043,19 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{R}{G}",
 			"type": "Artifact Creature — Robot ",
-			"collector_number": "150",
+			"collector_number": "146",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/150_B3-Super Battledroid.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/146_B3-Super Battledroid.png"
 			}
 		},
 		{
 			"name": "Droideka-Marksman",
-			"rarity": "uncommon",
+			"rarity": "common",
 			"mana_cost": "{3}{G}",
 			"type": "Artifact Creature — Robot ",
-			"collector_number": "122",
+			"collector_number": "120",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/122_Droideka-Marksman.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/120_Droideka-Marksman.png"
 			}
 		},
 		{
@@ -2063,9 +2063,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Artifact Creature — Robot ",
-			"collector_number": "271",
+			"collector_number": "265",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/271_SD-K4 Assassin Droid.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/265_SD-K4 Assassin Droid.png"
 			}
 		},
 		{
@@ -2073,9 +2073,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{G}{W}{U}",
 			"type": "Legendary Creature — Elder Shaman ",
-			"collector_number": "245",
+			"collector_number": "241",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/245_Yoda, Jedi Grandmaster.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/241_Yoda, Jedi Grandmaster.png"
 			}
 		},
 		{
@@ -2083,9 +2083,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact — Equipment ",
-			"collector_number": "258",
+			"collector_number": "253",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/258_Biker Advanced Recon Commando.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/253_Biker Advanced Recon Commando.png"
 			}
 		},
 		{
@@ -2093,9 +2093,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Artifact — Equipment ",
-			"collector_number": "265",
+			"collector_number": "259",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/265_Infantry Support Platform.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/259_Infantry Support Platform.png"
 			}
 		},
 		{
@@ -2103,19 +2103,19 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "288",
+			"collector_number": "282",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/288_Mon Cala.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/282_Mon Cala.png"
 			}
 		},
 		{
 			"name": "Black Sun Foot Soldier",
-			"rarity": "common",
+			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Creature — Mercenary  ",
-			"collector_number": "56",
+			"collector_number": "54",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/56_Black Sun Foot Soldier.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/54_Black Sun Foot Soldier.png"
 			}
 		},
 		{
@@ -2123,9 +2123,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{U}",
 			"type": "Artifact",
-			"collector_number": "162",
+			"collector_number": "158",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/162_Cloning Facilities.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/158_Cloning Facilities.png"
 			}
 		},
 		{
@@ -2133,9 +2133,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Artifact Creature — Robot ",
-			"collector_number": "51",
+			"collector_number": "49",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/51_Ringneck Recon Droid.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/49_Ringneck Recon Droid.png"
 			}
 		},
 		{
@@ -2143,9 +2143,9 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Artifact Creature — Robot ",
-			"collector_number": "131",
+			"collector_number": "129",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/131_R6-D8, Hearld of Hope.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/129_R6-D8, Hearld of Hope.png"
 			}
 		},
 		{
@@ -2153,9 +2153,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "98",
+			"collector_number": "96",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/98_Locked On.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/96_Locked On.png"
 			}
 		},
 		{
@@ -2163,9 +2163,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Creature — Human Pilot ",
-			"collector_number": "89",
+			"collector_number": "87",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/89_CC-2237, Odd Ball.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/87_CC-2237, Odd Ball.png"
 			}
 		},
 		{
@@ -2173,9 +2173,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{B}",
 			"type": "Legendary Creature — Human Warrior ",
-			"collector_number": "199",
+			"collector_number": "195",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/199_Jango Fett, Bounty Hunter.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/195_Jango Fett, Bounty Hunter.png"
 			}
 		},
 		{
@@ -2193,9 +2193,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "72",
+			"collector_number": "70",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/72_Oil Spill.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/70_Oil Spill.png"
 			}
 		},
 		{
@@ -2203,9 +2203,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Legendary Creature — Human Pilot ",
-			"collector_number": "43",
+			"collector_number": "41",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/43_Kickback, Storming Ryloth.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/41_Kickback, Storming Ryloth.png"
 			}
 		},
 		{
@@ -2213,19 +2213,19 @@
 			"rarity": "common",
 			"mana_cost": "{U}{B}",
 			"type": "Creature — Pirate ",
-			"collector_number": "223",
+			"collector_number": "219",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/223_Pyke Syndicate Goon.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/219_Pyke Syndicate Goon.png"
 			}
 		},
 		{
 			"name": "Jawa Scavenger",
-			"rarity": "common",
-			"mana_cost": "{1}{R}",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
 			"type": "Creature — Rogue  ",
-			"collector_number": "97",
+			"collector_number": "95",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/97_Jawa Scavenger.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/95_Jawa Scavenger.png"
 			}
 		},
 		{
@@ -2233,9 +2233,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}{R}{G}",
 			"type": "Creature — Peasant ",
-			"collector_number": "200",
+			"collector_number": "196",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/200_Jawa Auctioneer.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/196_Jawa Auctioneer.png"
 			}
 		},
 		{
@@ -2243,9 +2243,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}{G}",
 			"type": "Instant",
-			"collector_number": "235",
+			"collector_number": "231",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/235_Take it for Parts.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/231_Take it for Parts.png"
 			}
 		},
 		{
@@ -2253,9 +2253,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Nomad ",
-			"collector_number": "136",
+			"collector_number": "132",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/136_Wandering Jawa Merchant.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/132_Wandering Jawa Merchant.png"
 			}
 		},
 		{
@@ -2263,9 +2263,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{B}{G}",
 			"type": "Creature — Horror ",
-			"collector_number": "171",
+			"collector_number": "167",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/171_Dianoga.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/167_Dianoga.png"
 			}
 		},
 		{
@@ -2273,9 +2273,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Artifact Land",
-			"collector_number": "270",
+			"collector_number": "264",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/270_Scrapyard.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/264_Scrapyard.png"
 			}
 		},
 		{
@@ -2283,9 +2283,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{6}{R}",
 			"type": "Artifact Creature — Robot ",
-			"collector_number": "99",
+			"collector_number": "97",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/99_Lotho Minor Fire-Breather.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/97_Lotho Minor Fire-Breather.png"
 			}
 		},
 		{
@@ -2293,9 +2293,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Artifact Creature — Robot ",
-			"collector_number": "100",
+			"collector_number": "98",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/100_Lotho Minor Junker.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/98_Lotho Minor Junker.png"
 			}
 		},
 		{
@@ -2303,19 +2303,19 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{B}",
 			"type": "Legendary Artifact Creature — Robot ",
-			"collector_number": "68",
+			"collector_number": "66",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/68_Ig-88B, Armed and Dangerous.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/66_Ig-88B, Armed and Dangerous.png"
 			}
 		},
 		{
 			"name": "Morley, Servant of Maul",
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"mana_cost": "{G}",
 			"type": "Legendary Creature — Snake ",
-			"collector_number": "128",
+			"collector_number": "126",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/128_Morley, Servant of Maul.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/126_Morley, Servant of Maul.png"
 			}
 		},
 		{
@@ -2323,9 +2323,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{W}{U}{B}",
 			"type": "Legendary Crature — Slug",
-			"collector_number": "247",
+			"collector_number": "243",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/247_Ziro the Hutt, Crime Boss.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/243_Ziro the Hutt, Crime Boss.png"
 			}
 		},
 		{
@@ -2333,19 +2333,19 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Creature — Lizard Mercenary ",
-			"collector_number": "239",
+			"collector_number": "235",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/239_Trandoshan Slaver.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/235_Trandoshan Slaver.png"
 			}
 		},
 		{
 			"name": "B2 Rocket Trooper",
-			"rarity": "uncommon",
+			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Artifact Creature — Robot ",
-			"collector_number": "84",
+			"collector_number": "82",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/84_B2 Rocket Trooper.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/82_B2 Rocket Trooper.png"
 			}
 		},
 		{
@@ -2353,9 +2353,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Sorcery",
-			"collector_number": "140",
+			"collector_number": "136",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/140_Air Raid.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/136_Air Raid.png"
 			}
 		},
 		{
@@ -2363,9 +2363,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{W}{U}{B}",
 			"type": "Legendary Creature — Assassin ",
-			"collector_number": "158",
+			"collector_number": "154",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/158_Cad Bane, Who Needs No Introduction.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/154_Cad Bane, Who Needs No Introduction.png"
 			}
 		},
 		{
@@ -2373,9 +2373,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}{G}",
 			"type": "Creature — Artificer ",
-			"collector_number": "156",
+			"collector_number": "152",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/156_Bracca Scrapper.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/152_Bracca Scrapper.png"
 			}
 		},
 		{
@@ -2383,9 +2383,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "104",
+			"collector_number": "102",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/104_Pod Racing.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/102_Pod Racing.png"
 			}
 		},
 		{
@@ -2393,9 +2393,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "66",
+			"collector_number": "64",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/66_Freak Accident.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/64_Freak Accident.png"
 			}
 		},
 		{
@@ -2403,9 +2403,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Legendary Creature — Robot Pilot ",
-			"collector_number": "108",
+			"collector_number": "106",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/108_TAY-0, Safa Toma Champion.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/106_TAY-0, Safa Toma Champion.png"
 			}
 		},
 		{
@@ -2413,9 +2413,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Legendary Creature — Pilot ",
-			"collector_number": "76",
+			"collector_number": "74",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/76_Sebulba, Pod Racer.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/74_Sebulba, Pod Racer.png"
 			}
 		},
 		{
@@ -2423,9 +2423,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "289",
+			"collector_number": "283",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/289_Mos Espa Pod Racing Circut.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/283_Mos Espa Pod Racing Circut.png"
 			}
 		},
 		{
@@ -2433,9 +2433,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "283",
+			"collector_number": "277",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/283_Felucia Pod Racing Circut.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/277_Felucia Pod Racing Circut.png"
 			}
 		},
 		{
@@ -2443,9 +2443,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{U}{B}",
 			"type": "Legendary Creature — Soldier ",
-			"collector_number": "188",
+			"collector_number": "183",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/188_Grand Admiral Thrawn.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/183_Grand Admiral Thrawn.png"
 			}
 		},
 		{
@@ -2453,19 +2453,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}{G}",
 			"type": "Legendary Creature — Soldier ",
-			"collector_number": "243",
+			"collector_number": "239",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/243_Vice Admiral Rampart.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/239_Vice Admiral Rampart.png"
 			}
 		},
 		{
 			"name": "Deathtrooper",
-			"rarity": "uncommon",
+			"rarity": "common",
 			"mana_cost": "{4}{B}{B}",
 			"type": "Creature — Soldier ",
-			"collector_number": "62",
+			"collector_number": "60",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/62_Deathtrooper.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/60_Deathtrooper.png"
 			}
 		},
 		{
@@ -2473,9 +2473,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "59",
+			"collector_number": "57",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/59_Crash Landing.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/57_Crash Landing.png"
 			}
 		},
 		{
@@ -2483,9 +2483,9 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{G}{W}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "161",
+			"collector_number": "157",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/161_Clone Turbo Tank.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/157_Clone Turbo Tank.png"
 			}
 		},
 		{
@@ -2493,9 +2493,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Instant",
-			"collector_number": "73",
+			"collector_number": "71",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/73_Pick Through the Wreckage.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/71_Pick Through the Wreckage.png"
 			}
 		},
 		{
@@ -2503,9 +2503,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "114",
+			"collector_number": "112",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/114_Airstrike.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/112_Airstrike.png"
 			}
 		},
 		{
@@ -2513,9 +2513,9 @@
 			"rarity": "rare",
 			"mana_cost": "{W}",
 			"type": "Instant",
-			"collector_number": "13",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/13_Force Healing.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/12_Force Healing.png"
 			}
 		},
 		{
@@ -2523,19 +2523,19 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}{W}",
 			"type": "Creature — Human Warrior ",
-			"collector_number": "244",
+			"collector_number": "240",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/244_Wandering Jedi.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/240_Wandering Jedi.png"
 			}
 		},
 		{
 			"name": "Korm'rk-Class Fighter",
-			"rarity": "uncommon",
+			"rarity": "common",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "44",
+			"collector_number": "42",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/44_Korm'rk-Class Fighter.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/42_Korm'rk-Class Fighter.png"
 			}
 		},
 		{
@@ -2543,19 +2543,19 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "87",
+			"collector_number": "85",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/87_Blast 'Em!.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/85_Blast 'Em!.png"
 			}
 		},
 		{
 			"name": "K-2SO, Reprogrammed Droid",
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"mana_cost": "{1}{U}{B}",
 			"type": "Legendary Artifact Creature — Droid ",
-			"collector_number": "202",
+			"collector_number": "198",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/202_K-2SO, Reprogrammed Droid.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/198_K-2SO, Reprogrammed Droid.png"
 			}
 		},
 		{
@@ -2563,9 +2563,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "47",
+			"collector_number": "45",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/47_Mind Tricks Don't Work On Me.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/45_Mind Tricks Don't Work On Me.png"
 			}
 		},
 		{
@@ -2573,9 +2573,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}{R}",
 			"type": "Instant",
-			"collector_number": "198",
+			"collector_number": "194",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/198_Ion Blast.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/194_Ion Blast.png"
 			}
 		},
 		{
@@ -2583,9 +2583,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "301",
+			"collector_number": "295",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/301_Yavin-4.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/295_Yavin-4.png"
 			}
 		},
 		{
@@ -2593,9 +2593,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{W}",
 			"type": "Legendary Artifact — Vehicle ",
-			"collector_number": "164",
+			"collector_number": "160",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/164_The Coronet.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/160_The Coronet.png"
 			}
 		},
 		{
@@ -2603,69 +2603,69 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Legendary Artifact — Vehicle ",
-			"collector_number": "65",
+			"collector_number": "63",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/65_The First Light.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/63_The First Light.png"
 			}
 		},
 		{
 			"name": "Republic Starfleet",
 			"rarity": "rare",
-			"mana_cost": "{2}{R}{W}",
+			"mana_cost": "{3}{R}{W}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "227",
+			"collector_number": "223",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/227_Republic Starfleet.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/223_Republic Starfleet.png"
 			}
 		},
 		{
 			"name": "Separatist Starfleet",
 			"rarity": "rare",
-			"mana_cost": "{2}{U}{B}",
+			"mana_cost": "{3}{U}{B}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "232",
+			"collector_number": "228",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/232_Separatist Starfleet.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/228_Separatist Starfleet.png"
 			}
 		},
 		{
 			"name": "Imperial Star Starfleet",
 			"rarity": "rare",
-			"mana_cost": "{2}{W}{B}",
+			"mana_cost": "{3}{W}{B}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "195",
+			"collector_number": "191",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/195_Imperial Star Starfleet.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/191_Imperial Star Starfleet.png"
 			}
 		},
 		{
 			"name": "Rebel Starfleet",
 			"rarity": "rare",
-			"mana_cost": "{2}{W}{U}",
+			"mana_cost": "{3}{W}{U}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "224",
+			"collector_number": "220",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/224_Rebel Starfleet.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/220_Rebel Starfleet.png"
 			}
 		},
 		{
 			"name": "Crimson Dawn Starfleet",
 			"rarity": "rare",
-			"mana_cost": "{2}{R}{G}",
+			"mana_cost": "{3}{R}{G}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "165",
+			"collector_number": "161",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/165_Crimson Dawn Starfleet.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/161_Crimson Dawn Starfleet.png"
 			}
 		},
 		{
 			"name": "Crimson Dawn Interceptor",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Artifact — Vehicle ",
-			"collector_number": "262",
+			"collector_number": "308",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/262_Crimson Dawn Interceptor.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/308_Crimson Dawn Interceptor.png"
 			}
 		},
 		{
@@ -2673,29 +2673,29 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Sorcery",
-			"collector_number": "191",
+			"collector_number": "187",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/191_The Holdo Maneuver.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/187_The Holdo Maneuver.png"
 			}
 		},
 		{
 			"name": "Zann Consortium Starfleet",
 			"rarity": "rare",
-			"mana_cost": "{2}{B}{R}",
+			"mana_cost": "{3}{B}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "246",
+			"collector_number": "242",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/246_Zann Consortium Starfleet.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/242_Zann Consortium Starfleet.png"
 			}
 		},
 		{
 			"name": "Military Recruitment Bill",
 			"rarity": "rare",
-			"mana_cost": "{2}{R}{W}",
+			"mana_cost": "{1}{R}{W}",
 			"type": "Sorcery",
-			"collector_number": "209",
+			"collector_number": "205",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/209_Military Recruitment Bill.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/205_Military Recruitment Bill.png"
 			}
 		},
 		{
@@ -2703,29 +2703,29 @@
 			"rarity": "rare",
 			"mana_cost": "{U}{R}{W}",
 			"type": "Legendary Creature — Human Rebel ",
-			"collector_number": "159",
+			"collector_number": "155",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/159_Cassian Andor, Rebel Operative.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/155_Cassian Andor, Rebel Operative.png"
 			}
 		},
 		{
 			"name": "Hutt Starfleet",
 			"rarity": "rare",
-			"mana_cost": "{2}{B}{G}",
+			"mana_cost": "{3}{B}{G}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "192",
+			"collector_number": "188",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/192_Hutt Starfleet.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/188_Hutt Starfleet.png"
 			}
 		},
 		{
 			"name": "Alaskan Starfleet",
 			"rarity": "rare",
-			"mana_cost": "{2}{U}{R}",
+			"mana_cost": "{3}{U}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "141",
+			"collector_number": "137",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/141_Alaskan Starfleet.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/137_Alaskan Starfleet.png"
 			}
 		},
 		{
@@ -2733,9 +2733,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{R}{W}",
 			"type": "Legendary Creature — Human Monk ",
-			"collector_number": "160",
+			"collector_number": "156",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/160_Chirrut Îmwe, One With The Force.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/156_Chirrut Îmwe, One With The Force.png"
 			}
 		},
 		{
@@ -2743,19 +2743,19 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{W}",
 			"type": "Legendary Creature — Human Assassin ",
-			"collector_number": "152",
+			"collector_number": "148",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/152_Baze Malbus, Temple Guardian.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/148_Baze Malbus, Temple Guardian.png"
 			}
 		},
 		{
 			"name": "First Order Starfleet",
 			"rarity": "rare",
-			"mana_cost": "{2}{G}{U}",
+			"mana_cost": "{3}{G}{U}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "179",
+			"collector_number": "175",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/179_First Order Starfleet.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/175_First Order Starfleet.png"
 			}
 		},
 		{
@@ -2763,29 +2763,29 @@
 			"rarity": "rare",
 			"mana_cost": "{B}{R}{G}",
 			"type": "Legendary Creature — Human Mercenary ",
-			"collector_number": "154",
+			"collector_number": "150",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/154_Boba Fett, Bounty Hunter.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/150_Boba Fett, Bounty Hunter.png"
 			}
 		},
 		{
 			"name": "New Republic Starfleet",
 			"rarity": "rare",
-			"mana_cost": "{2}{G}{W}",
+			"mana_cost": "{3}{G}{W}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "213",
+			"collector_number": "209",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/213_New Republic Starfleet.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/209_New Republic Starfleet.png"
 			}
 		},
 		{
 			"name": "StarViper-Class Attack Platform",
-			"rarity": "uncommon",
+			"rarity": "common",
 			"mana_cost": "{R}{R}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "106",
+			"collector_number": "104",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/106_StarViper-Class Attack Platform.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/104_StarViper-Class Attack Platform.png"
 			}
 		},
 		{
@@ -2793,9 +2793,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "81",
+			"collector_number": "79",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/81_TIE Starfighter.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/79_TIE Starfighter.png"
 			}
 		},
 		{
@@ -2803,9 +2803,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "238",
+			"collector_number": "234",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/238_TIE Punisher.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/234_TIE Punisher.png"
 			}
 		},
 		{
@@ -2813,9 +2813,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "79",
+			"collector_number": "77",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/79_TIE Interceptor.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/77_TIE Interceptor.png"
 			}
 		},
 		{
@@ -2823,9 +2823,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "52",
+			"collector_number": "50",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/52_TIE Defender.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/50_TIE Defender.png"
 			}
 		},
 		{
@@ -2833,9 +2833,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "88",
+			"collector_number": "86",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/88_C-9979 Landing Craft.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/86_C-9979 Landing Craft.png"
 			}
 		},
 		{
@@ -2843,9 +2843,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "261",
+			"collector_number": "256",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/261_Captor-class Cruiser.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/256_Captor-class Cruiser.png"
 			}
 		},
 		{
@@ -2853,9 +2853,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "69",
+			"collector_number": "67",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/69_Imperial Star Destroyer.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/67_Imperial Star Destroyer.png"
 			}
 		},
 		{
@@ -2863,9 +2863,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Human Soldier ",
-			"collector_number": "21",
+			"collector_number": "19",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/21_Stormtrooper Squadron.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/19_Stormtrooper Squadron.png"
 			}
 		},
 		{
@@ -2873,9 +2873,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "48",
+			"collector_number": "46",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/48_Quasar Fire II-Class Carrier.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/46_Quasar Fire II-Class Carrier.png"
 			}
 		},
 		{
@@ -2883,19 +2883,19 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "107",
+			"collector_number": "105",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/107_T-65 X-Wing.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/105_T-65 X-Wing.png"
 			}
 		},
 		{
 			"name": "Rebel",
-			"rarity": "common",
+			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Creature — Rebel ",
-			"collector_number": "132",
+			"collector_number": "305",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/132_Rebel.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/305_Rebel.png"
 			}
 		},
 		{
@@ -2903,9 +2903,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "105",
+			"collector_number": "103",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/105_RZ-1 A-Wing Interceptor.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/103_RZ-1 A-Wing Interceptor.png"
 			}
 		},
 		{
@@ -2913,9 +2913,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Instant",
-			"collector_number": "38",
+			"collector_number": "36",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/38_Force Projection.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/36_Force Projection.png"
 			}
 		},
 		{
@@ -2923,9 +2923,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Instant",
-			"collector_number": "14",
+			"collector_number": "13",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/14_Force Shockwave.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/13_Force Shockwave.png"
 			}
 		},
 		{
@@ -2933,9 +2933,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{U}",
 			"type": "Legendary Creature — Human Rebel Warrior ",
-			"collector_number": "203",
+			"collector_number": "199",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/203_Kanan Jarrus, Jedi Knight.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/199_Kanan Jarrus, Jedi Knight.png"
 			}
 		},
 		{
@@ -2943,19 +2943,19 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "125",
+			"collector_number": "123",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/125_Hammerhead Corvette.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/123_Hammerhead Corvette.png"
 			}
 		},
 		{
 			"name": "Imperial Royal Guard",
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Soldier ",
-			"collector_number": "93",
+			"collector_number": "91",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/93_Imperial Royal Guard.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/91_Imperial Royal Guard.png"
 			}
 		},
 		{
@@ -2963,9 +2963,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Creature — Nomad ",
-			"collector_number": "96",
+			"collector_number": "94",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/96_Jawa Junk Hoarder.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/94_Jawa Junk Hoarder.png"
 			}
 		},
 		{
@@ -2973,9 +2973,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Nomad ",
-			"collector_number": "42",
+			"collector_number": "40",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/42_Jawa Navigator.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/40_Jawa Navigator.png"
 			}
 		},
 		{
@@ -2983,9 +2983,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Pirate ",
-			"collector_number": "95",
+			"collector_number": "93",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/95_Jawa Extortionist.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/93_Jawa Extortionist.png"
 			}
 		},
 		{
@@ -2993,9 +2993,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "34",
+			"collector_number": "32",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/34_Force Doppelganger.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/32_Force Doppelganger.png"
 			}
 		},
 		{
@@ -3003,9 +3003,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Shaman ",
-			"collector_number": "127",
+			"collector_number": "125",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/127_Jawa Shaman.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/125_Jawa Shaman.png"
 			}
 		},
 		{
@@ -3013,9 +3013,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{U}",
 			"type": "Legendary Creature — Human Rebel ",
-			"collector_number": "46",
+			"collector_number": "44",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/46_Luthen Axis Rael.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/44_Luthen Axis Rael.png"
 			}
 		},
 		{
@@ -3023,9 +3023,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Pilot ",
-			"collector_number": "80",
+			"collector_number": "78",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/80_TIE Pilot.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/78_TIE Pilot.png"
 			}
 		},
 		{
@@ -3033,9 +3033,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Legendary Creature — Human Rebel ",
-			"collector_number": "102",
+			"collector_number": "100",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/102_Nemik, Heart of the Revolution.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/100_Nemik, Heart of the Revolution.png"
 			}
 		},
 		{
@@ -3043,9 +3043,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{W}",
 			"type": "Legendary Creature — Human Rebel ",
-			"collector_number": "201",
+			"collector_number": "197",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/201_Jyn Erso, Rogue One Leader.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/197_Jyn Erso, Rogue One Leader.png"
 			}
 		},
 		{
@@ -3053,19 +3053,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}{G}",
 			"type": "Legendary Creature — Lizard Assassin ",
-			"collector_number": "155",
+			"collector_number": "151",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/155_Bossk, Deadly Stalker.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/151_Bossk, Deadly Stalker.png"
 			}
 		},
 		{
 			"name": "Consumed by Monsters",
-			"rarity": "rare",
+			"rarity": "common",
 			"mana_cost": "{X}{G}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "121",
+			"collector_number": "119",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/121_Consumed by Monsters.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/119_Consumed by Monsters.png"
 			}
 		},
 		{
@@ -3073,9 +3073,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{B}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "197",
+			"collector_number": "193",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/197_Interdictor Star Destroyer.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/193_Interdictor Star Destroyer.png"
 			}
 		},
 		{
@@ -3083,9 +3083,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{B}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "175",
+			"collector_number": "171",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/175_Executor-Class Star Dreadnought.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/171_Executor-Class Star Dreadnought.png"
 			}
 		},
 		{
@@ -3093,9 +3093,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "109",
+			"collector_number": "107",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/109_TIE Oppressor.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/107_TIE Oppressor.png"
 			}
 		},
 		{
@@ -3103,22 +3103,19 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "78",
+			"collector_number": "76",
 			"image_uris": {
-				"en": "https://Itaho.github.io/sets/SW1-files/img/78_TIE Bomber.png"
+				"en": "https://Itaho.github.io/sets/SW1-files/img/76_TIE Bomber.png"
 			}
 		}
 	]
 [RareSlot(1)]
-2 General Pong Krell
 2 The Zillo Beast
-2 R2-D2, Full of Solutions
 2 Venator-class Star Destroyer
 2 Ahsoka Tano, Padawan Learner
 2 Riyo Chuchi, Republic Senator
 2 Anakin Skywalker, Starpilot
 2 HMP Droid Gunship
-2 Rex, 501st Captain
 2 ARC-5555, Fives
 2 Lucrehulk-Class Battleship
 2 Mace Windu, Party Crasher
@@ -3126,46 +3123,48 @@
 2 Trench, Harch Admiral
 2 ARC-0408, Echo
 2 Cody, 212th Captain
-2 Wolffe, 104th Commander
 2 Fox, Coruscant Guard Commander
 2 Asajj Ventress, Sith Assassin
 2 Mina Bonteri, Seperatist Senator
+2 Republic Senate Guard
 2 Bail Organa, Alderaan Delegate
 2 Pursuit of Peace
-2 Finanical Reform Bill
 2 Emergency Powers Act
 2 Reduced Military Spending Bill
 2 Nala Se, Clone Engineer
+2 Lightsaber Throw
 2 A Fine Addition to My Collection
 2 Maul, Formerly Darth
 2 ARC-5597, Jesse
 2 ARC-77, Fordo
 2 Satine Kryze, Neutrality Advocate
-2 Trench, Naval Commander
 2 Kyber Crystal Bleeding
-2 Revive Warriors
 2 Mother Talzin
 2 Dooku, Count of Serenno
 2 Ahsoka Tano, Jedi Ronin
 2 Put on Trial
-2 The Ronin
-2 Plo Koon's Force Judgement
 2 Wat Tambor, Pillager
 2 Jedi Holocron
 2 Sith Holocron
 2 Durge, The Unkillable
 2 Poggle the Lesser, Archduke
-2 High Queen Karina the Great
+2 Corrupt Senator
+2 Compassionate Senator
+2 Steadfast Senator
+2 Greedy Senator
+2 Frustrated Senator
 2 B3-Super Battledroid
 2 Cloning Facilities
 2 Jango Fett, Bounty Hunter
 2 Wandering Jawa Merchant
 2 Ig-88B, Armed and Dangerous
+2 Morley, Servant of Maul
 2 Ziro the Hutt, Crime Boss
 2 Cad Bane, Who Needs No Introduction
 2 Grand Admiral Thrawn
 2 Clone Turbo Tank
 2 Force Healing
+2 K-2SO, Reprogrammed Droid
 2 The Coronet
 2 The First Light
 2 Republic Starfleet
@@ -3186,13 +3185,13 @@
 2 Imperial Star Destroyer
 2 T-65 X-Wing
 2 Kanan Jarrus, Jedi Knight
+2 Imperial Royal Guard
 2 Force Doppelganger
 2 Jyn Erso, Rogue One Leader
-2 Consumed by Monsters
 2 Interdictor Star Destroyer
 1 Obi-Wan Kenobi, Soresu Master
 1 Anakin Skywalker, Fallen
-1 General Grievous. Lightsaber Collector
+1 Grievous. Lightsaber Collector
 1 Darth Maul, Hate Fueled
 1 Palpatine, Unlimited Power
 1 Padmé Amidala, Naboo Senator
@@ -3210,17 +3209,16 @@
 9 CT-9901, Hunter
 9 Omega, of The Bad Batch
 9 CT-1409, Echo
+9 General Pong Krell
 9 Brothers in Arms
 9 Brothers in Arms
 9 The Clone Wars
+9 R2-D2, Full of Solutions
 9 BB-8
 9 Omega, of The Bad Batch
-9 Clone-Trooper Squadron
 9 BX-Commando Droid
 9 Batcher, Lurca Hound
-9 Low Altitude Assault Transport
-9 BLT Y-Wing Starfighter
-9 Droideka
+9 Rex, 501st Captain
 9 Vaughn, 332nd Captain
 9 Clone Commando
 9 Providence-Class Dreadnought
@@ -3228,15 +3226,16 @@
 9 Super Tactical Droid
 9 Thorn, Coruscant Guard Captain
 9 Thorn, Coruscant Guard Captain
-9 All Terrain-Tactical Enforcer
+9 Wolffe, 104th Commander
 9 Pistoeka Sabotage Droid
-9 Republic Senate Guard
 9 LM-432 Crab Droid
+9 Finanical Reform Bill
 9 IG-227 Hailfire-Class Droid Tank
 9 T-Series Tactical Droid
 9 Gar Saxon, Super Commando
 9 Bo Katan Kryze, Terrorist
 9 Octuptarra Magna Tri-Droid
+9 Trench, Naval Commander
 9 Mercenary Training
 9 Palpatine's Force Lightning
 9 Deflect Attacks
@@ -3247,43 +3246,35 @@
 9 Arquitens-Class Light Cruiser
 9 Recusant-Class Light Destroyer
 9 F, Jedi Fugitive
+9 The Ronin
+9 Plo Koon's Force Judgement
 9 Sith Alchemy
+9 High Queen Karina the Great
 9 Barriss Offee, Fallen Jedi
-9 Corrupt Senator
-9 Compassionate Senator
-9 Steadfast Senator
-9 Greedy Senator
-9 Frustrated Senator
 9 Umbaran Millicreep Droid
-9 Droideka-Marksman
 9 SD-K4 Assassin Droid
 9 Infantry Support Platform
+9 Black Sun Foot Soldier
 9 Ringneck Recon Droid
 9 CC-2237, Odd Ball
 9 Clone Tank Pilot
 9 Kickback, Storming Ryloth
+9 Jawa Scavenger
 9 Jawa Auctioneer
 9 Take it for Parts
 9 Dianoga
 9 Lotho Minor Fire-Breather
-9 Morley, Servant of Maul
-9 B2 Rocket Trooper
 9 Air Raid
 9 TAY-0, Safa Toma Champion
 9 Vice Admiral Rampart
-9 Deathtrooper
-9 Korm'rk-Class Fighter
-9 K-2SO, Reprogrammed Droid
 9 Mind Tricks Don't Work On Me
 9 The Holdo Maneuver
-9 StarViper-Class Attack Platform
 9 TIE Punisher
 9 TIE Defender
 9 Captor-class Cruiser
 9 Quasar Fire II-Class Carrier
 9 Force Projection
 9 Force Shockwave
-9 Imperial Royal Guard
 9 Jawa Junk Hoarder
 9 Jawa Navigator
 9 TIE Pilot
@@ -3293,13 +3284,14 @@
 [CommonSlot(11)]
 30 ARC Troopers
 30 Clone Protocol 66
-30 Clone-Trooper
-30 B1-Battledroid
 30 Battle Brothers
 30 B1-Battledroid Squadron
+30 Clone-Trooper Squadron
 30 B2-Battledroid Squadron
 30 Advanced ReConnaissance-170
-30 Stormtrooper
+30 Low Altitude Assault Transport
+30 BLT Y-Wing Starfighter
+30 Droideka
 30 Hyena Bomber
 30 I Have You Now
 30 Droid Tri-Fighter
@@ -3326,11 +3318,11 @@
 30 V-19 Torrent Starfighter
 30 Z-95 Starfighter
 30 Acclamator-Class Assault Ship
+30 All Terrain-Tactical Enforcer
 30 All Terrain Reconnaissance Transport
 30 All Terrain Attack Pod
 30 Force Choak
 30 Force Lightning
-30 Lightsaber Throw
 30 Force Stasis
 30 DSD1-Dwarf Spider Droid
 30 Armored Assault Tank
@@ -3342,47 +3334,49 @@
 30 Force Animal Bond
 30 Force Blinding
 30 Hologram
+30 Revive Warriors
 30 Force Precognition
 30 Green Kyber Crystal
 30 Blue Kyber Crystal
 30 White Kyber Crystal
 30 Black Kyber Crystal
 30 Red Kyber Crystal
-30 Twi'lek Captive
 30 TK Trooper
 30 Tusken Raiders
 30 Clone Gunner
 30 Clone Heavy Gunner
 30 NR-N99 Persuader-Class Droid
 30 AAT Driver Battle Droid
+30 Droideka-Marksman
 30 Biker Advanced Recon Commando
-30 Black Sun Foot Soldier
 30 R6-D8, Hearld of Hope
 30 Locked On
 30 Oil Spill
 30 Pyke Syndicate Goon
-30 Jawa Scavenger
 30 Lotho Minor Junker
 30 Trandoshan Slaver
+30 B2 Rocket Trooper
 30 Bracca Scrapper
 30 Pod Racing
 30 Freak Accident
 30 Sebulba, Pod Racer
+30 Deathtrooper
 30 Crash Landing
 30 Pick Through the Wreckage
 30 Airstrike
 30 Wandering Jedi
+30 Korm'rk-Class Fighter
 30 Blast 'Em!
 30 Ion Blast
-30 Crimson Dawn Interceptor
+30 StarViper-Class Attack Platform
 30 TIE Starfighter
 30 TIE Interceptor
 30 C-9979 Landing Craft
 30 Stormtrooper Squadron
-30 Rebel
 30 RZ-1 A-Wing Interceptor
 30 Hammerhead Corvette
 30 Jawa Shaman
+30 Consumed by Monsters
 30 TIE Oppressor
 30 TIE Bomber
 [LandSlot(1)]

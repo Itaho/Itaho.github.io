@@ -377,7 +377,7 @@
 		{
 			"name": "BB-8",
 			"rarity": "uncommon",
-			"mana_cost": "{R}",
+			"mana_cost": "{2}{R}",
 			"type": "Legendary Artifact Creature — Robot ",
 			"collector_number": "84",
 			"image_uris": {

@@ -21,13 +21,18 @@ def convertList(setCode):
 
 	#F: array of cards to skip
 	skipdex = []
+	#CE: array of special sort groups
+	sort_groups = []
 	#F: This gets any alt-arts in a single set and adds their card number to a list of cards to skip.
 	for i in range(len(cards)):
+		match = re.match(r'!group ([^ \n]+)', cards[i]['notes'])
+		if match and match.group() not in sort_groups:
+			sort_groups.append(match.group())
 		for j in range(i):
 			if cards[i]['card_name'] == cards[j]['card_name'] and "token" not in cards[i]['shape'] and "Basic" not in cards[i]['type']:
 				skipdex.append(cards[j]['number'])
-	
-	master_list = []
+
+	final_list = []
 	cards_mono = []
 	cards_multi = []
 	cards_brown = []
@@ -85,10 +90,11 @@ def convertList(setCode):
 		'L': [],
 		'basic': [],
 		'token': [],
-		'mp': [],
-		'sort_group1': [],
-		'sort_group2': []
+		'mp': []
 	}
+
+	for group in sort_groups:
+		cards_sorted[group] = []
 
 	#F: now go over the cards again
 	for card in cards:
@@ -96,12 +102,15 @@ def convertList(setCode):
 		if card['number'] in skipdex:
 			continue
 
+		#CE: fix for devoid cards
+		if 'devoid' in card['rules_text'].lower():
+			card['color'] = card['color_identity']
+
 		# sort types
-		#EDIT - replace the array index with JSON keys; 10 = shape, 1 = color, 3 = type
-		if '!sort_group1' in card['notes']:
-			cards_sorted['sort_group1'].append(card)
-		elif '!sort_group2' in card['notes']:
-			cards_sorted['sort_group2'].append(card)
+		if '!group' in card['notes']:
+			for group in sort_groups:
+				if group in card['notes']:
+					cards_sorted[group].append(card)
 		elif 'token' in card['shape']:
 			cards_sorted['token'].append(card)
 		elif 'masterpiece' in card['rarity']: # masterpiece
@@ -153,7 +162,7 @@ def convertList(setCode):
 		if '!sort' in notes:
 			#F: notes = index of !sort + 6 to the end of the string
 			card['notes'] = notes[notes.index('!sort') + 6:]
-		elif '!last' not in notes:
+		else:
 			card['notes'] = 'zzz'
 
 		# clean shape
@@ -170,7 +179,7 @@ def convertList(setCode):
 					cards_sorted[shard].append(card)
 					assigned = True
 			if not assigned:
-					cards_sorted['gold'].append(card)
+				cards_sorted['gold'].append(card)
 
 	preview_path = 'resources'
 	if os.path.isfile(os.path.join('sets', setCode + '-files', 'preview-order.json')):
@@ -182,35 +191,41 @@ def convertList(setCode):
 	for r in list_order:
 		row_count = 0
 		cards_arr = []
-		for index in list_order[r]:
+		for index in r['cards']:
 			row_count = max(row_count, len(cards_sorted[index]))
 			cards_arr.append(cards_sorted[index])
 
 		if (row_count > 0):
+			if 'title' in r and len(final_list) > 0:
+				del final_list[-1]
+				final_list.append('a->' + r['title'])
 			for x in range(len(cards_arr)):
 				if len(cards_arr[x]) > 0 and 'Basic' not in cards_arr[x][0]['type']:
-					cards_arr[x] = sorted(cards_arr[x], key=lambda x : (len(x['color']), x['rarity'], x['notes'], x['number'])) # start with len() for 3+c cards
+					if len(r['cards']) == 1 and r['cards'][0] in sort_groups:
+						cards_arr[x] = sorted(cards_arr[x], key=lambda x : (x['notes'], x['rarity'], x['number']))
+					else:
+						cards_arr[x] = sorted(cards_arr[x], key=lambda x : (len(x['color']), x['rarity'], x['notes'], x['number'])) # start with len() for 3+c cards
 					# otherwise, preserve order of basics from set file
 
 			for row in range(row_count):
 				for arr in cards_arr:
 					if (row >= len(arr)):
-						master_list.append(blank1)
+						final_list.append(blank1)
 					else:
 						ca = arr[row]
-						master_list.append({'card_name':ca['card_name'],'number':ca['number'],'shape':ca['shape']})
+						final_list.append({'card_name':ca['card_name'],'number':ca['number'],'shape':ca['shape']})
 
-			if len(list_order[r]) == 1: # single-card categories
+			if len(r['cards']) == 1: # single-card categories
 				if not row_count % 5 == 0:
 					for x in range(5 - (row_count % 5)):
-						master_list.append(blank1)
+						final_list.append(blank1)
 
 			for x in range(5):
-				master_list.append(blank2)
+				final_list.append(blank2)
 
 	#F: lists/SET-list.txt finally comes into play
 	with open(outputList, 'w', encoding="utf-8-sig") as f:
-		json.dump(master_list, f)
+		json.dump(final_list, f)
 
 def colorEquals(color, match):
 	return sorted("".join(dict.fromkeys(color))) == sorted("".join(dict.fromkeys(match)))
